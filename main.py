@@ -3,8 +3,9 @@ import csv
 import json
 import sys
 
+
 key = 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir'
-cookie = '_ga_9E363E7BES=GS1.1.1657659578.1.1.1657659740.60; v=1657659576; _buzz_fpc=JTdCJTIycGF0aCUyMiUzQSUyMiUyRiUyMiUyQyUyMmRvbWFpbiUyMiUzQSUyMi5tLmF2aXRvLnJ1JTIyJTJDJTIyZXhwaXJlcyUyMiUzQSUyMldlZCUyQyUyMDEyJTIwSnVsJTIwMjAyMyUyMDIxJTNBMDElM0EwNiUyMEdNVCUyMiUyQyUyMlNhbWVTaXRlJTIyJTNBJTIyTGF4JTIyJTJDJTIydmFsdWUlMjIlM0ElMjIlN0IlNUMlMjJ2YWx1ZSU1QyUyMiUzQSU1QyUyMmQ1ZjMzMDljNzgwZjQ3ZDUxMzU2ZDg3YjhiYjJkZGMxJTVDJTIyJTJDJTVDJTIyZnBqc0Zvcm1hdCU1QyUyMiUzQXRydWUlN0QlMjIlN0Q=; dfp_group=47; _mlocation=637640; _mlocation_mode=laas; st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoidko0TkJ5SlU2TElJTGRDY3VNTkdBZm5PRWwySzdtS01KZXBFMDh1VUFISlY4RUZWMTljb3lDSS82RnpVNGU4WU5NN0tKeS9OekhKTk9KaUNUcXN6Ny9HblJPMVlnY3Fxcml1RzZuZzBLZ1Q3Z2lGNUZjRFQ1aFlraUhPM004b1hCWVRpemIvSzcySjIrTGRLREY1QWJjdHVVYjNHNWdSNENhemZRSUI3aWI5Ylo5S0R2VngxaDc3b3puS3NRMXZjbklFV2JjQng1ZlF6TzJhNngyb2g3cTF3emRrYTlVNm9sRGh2bjJDWkcvTjJ6VHdzV0ZtVGtPSUpFTTJwa1ZpVkZ4TzBMUlFPMVdPN045a1ZPdTgvNUFDU29QVXdDOC80N1VDMlNoTVJUcEl4T0ZQcVpPNnJ2amRyU0h3d2RjMTZZN0JxSGEwQm10OG9FS2c4NHQwL1ljelRBMWtteUplcjNXbTdJNTNBSTdGMzFzWWJqNENjSy9JK3BIbUFJbFFCYzBqdkw1QXRLM0F2UnJpRzRGa3lWUDNMSFRobTVZQ3ZUVGVCc09hMk5CcExEZStqQS9DaHlZOGlHS3RVZjhuOUlxdlRqZFJrQ1ZRNE5GSGsxYkc3Z3FYRXhJTXB1T0hLMXJ0NlJQUCtpZnBWN0RjZllHNEJRWGpQNmEvSHpaR3oyVkwwdUZValovM2w4RURGeHpMZlM3UnpnRU1Nb3RIM0Y3Z3pkalRFcGorNXBqd3FEQWF1S016T1U2RUhmb1NDWGd5VjFocXJZRmd1bDJ3WEhVV1RwaEJsSHRwNkFITWJhZXhZTW5aWWtjYjFpbHA3b0NKbGUwaFZtMWUxUzFWKzIzWERlRU1VZHZaUm5SMTM5TmtrZzU3S1YwdEYwdVVxWGVDNGpaZHhXN1FnWVdxUmhEK0QyV1hSUDJNSUw1eXpxcllmSzVUNXVUUHNBaGFTM1pXamlpd2REdmVuejloMzdQWmI2Vkw1dElSeWhFN1JDMkppcXlJczZLMStsVUVwRlNDVFV2N3IzdHMwYk9oMUFWUndaTHYxNnVMVmMzMVpOL2pKd0Y2M29SV2xCOWZwRjZ5Y2ZHNDhMbCttSmdjTUJySEtWRXFnWlowTExIaFgzeitBek9na1Z5Y1pCQW0zM1lxRFUvSm8wOHRCN2lLSVl1cTE1NVVoOUNuenZJeTZEZENxTmxiYmE1TXZGT2g3WlhOWnp3PT0iLCJpYXQiOjE2NTc2NTk2MDEsImV4cCI6MTY1ODg2OTIwMX0.JnwxxWb0pR_hMDBCWcRUJp9V9EY8fXLBtUX4KsYhXJU; tmr_reqNum=7; tmr_detect=0%7C1657659644403; _ga=GA1.1.114331317.1657659578; _gid=GA1.2.1489576562.1657659579; tmr_lvid=eeef370a7b3370f0eb8e36fa0b487125; tmr_lvidTS=1657659578839; f=5.e1ae7f0eb55e91e9c738a39f956d9a5c16d443061c57ac4216d443061c57ac4216d443061c57ac4216d443061c57ac42cec4d980e289734fcec4d980e289734fcec4d980e289734f96a296658223dafb96a296658223dafb381ebd593ffbb4c30df103df0c26013a8b1472fe2f9ba6b90df103df0c26013a268a7bf63aa148d2ea5c223d6b439c9d5f5fef956c8c12f948717a87126911fa1cbff88f85149ecf4a5611862bd91ca7e2415097439d4047143114829cf33ca787829363e2d856a2d50b96489ab264edc772035eab81f5e187829363e2d856a2f88859c11ff008953de19da9ed218fe23de19da9ed218fe2c772035eab81f5e13de19da9ed218fe2143114829cf33ca7bed76bde8afb15d28e3a80a29e104a6c2c61f4550df136d8b52ccfba5f649ac597bc64b9d3449ed41da9f488c469f075bcaaee87a280b624d6eebeac28b9a9f02d57da0d3d3274b10616349da3da33c3f009e5192741225146b8ae4e81acb9fa46b8ae4e81acb9fa02c68186b443a7ac7c629922cb33e217f1f94a407205ae132da10fb74cac1eab2da10fb74cac1eab15fe31d52e5b1f9a711bc502486cd628; ft="VfLqAIggFQ9o/I6cm9jBoogxlhfMy+sJAk0HaglTzn8iH05//tOB46I2U3tfXTf398CNJrVT5JwvUcvgQU95TaT3PZMUlJ9AfH7tim9I6v93wEW4yC72FwnqtL7hyf+EZS8TBMlyi+QRUnsvAfab72iREtkZNt18pgw/AcS3pyjX34a26Kn3syV8BP6UIHHL"; adrcid=A6-8WejCF6isSNpbB8jvpSA; adrdel=1; _gcl_au=1.1.601596732.1657659578; u=2te6ck1c.1cwcd17.7b32ehurnuk0'
+cookie = 'u=2fkcz6l8.1kgj55.g3xn3vc0t3; _ym_uid=1560267406178859309; buyer_selected_search_radius4=0_general; buyer_selected_search_radius3=0_services; buyer_selected_search_radius2=0_job; buyer_selected_search_radius0=200; buyer_local_priority_v2=0; buyer_index_tooltip=1; auth=1; _gcl_au=1.1.733197779.1652816764; luri=moskva; _ym_d=1657654472; _ym_isad=1; tmr_lvid=5c9c483ac660d500846a4d65251b749d; tmr_lvidTS=1657654489421; _gid=GA1.2.2632564.1657654490; f=5.cc913c231fb04ced4b5abdd419952845a68643d4d8df96e9a68643d4d8df96e9a68643d4d8df96e9a68643d4d8df96e94f9572e6986d0c624f9572e6986d0c624f9572e6986d0c62ba029cd346349f36c1e8912fd5a48d02c1e8912fd5a48d0246b8ae4e81acb9fa143114829cf33ca746b8ae4e81acb9fa46b8ae4e81acb9fae992ad2cc54b8aa858f6718e375efe9248bdd0f4e425aba7085d5b6a45ae867378ba5f931b08c66a72a0378f24244a7a2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eab2da10fb74cac1eabf8e5e9b21a40e18dde87ad3b397f946b4c41e97fe93686adf74ad50eaa2b3372f415355acea9907602c730c0109b9fbb551b50768d5f707e6f9088c33a557ef70e28148569569b7903532f306346f575b9e8022cece544b32ebf3cb6fd35a0ac0df103df0c26013a28a353c4323c7a3a140a384acbddd74801d2e1440f9b5e4f3de19da9ed218fe23de19da9ed218fe2ddb881eef125a8703b2a42e40573ac3cd81d609ad4115c32bcdb5a5dea4d64cf; ft="4GDrFjTQl5E6tNlykiW1h6a0Clle3t6gkc53Ehj8v2y1ET6ospzoFOy7dn8fB7Q5ynjtpHR3ixYRr9hSVDGMQ0VWF/8Aj1WC46DJue9Xzl/lDZwauU413MCpVeR1MlqodYHJIwCzSLnD12o9lSmk00AXQQWiaYq6ALPFaLyt0iZIBbLKdHLmuFMvXt8GdaDX"; buyer_location_id=637640; st=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoidko0TkJ5SlU2TElJTGRDY3VNTkdBZm5PRWwySzdtS01KZXBFMDh1VUFISkRoNkVQZGMzaUhBVjc3QlpVWDhYMG4xS0NKYklyeGVJZkVmSW9SL1FyRDI2dHVKY0dRQzNHODh2WVY5QjNGSWoyOURTOGhvZ2xaM1J5SUNlM3lpOXpuYzZXK0xGcGt3S1o4WmtabTdLT2dJSUFOajFsMzZhQjIyQXRNd1ZPeXZDR1RZRWVsYmtpT1k5TnJPdnE2enpTNzlDakZqTEM2b3JDTE1wNG4xUnl4eDdEQmZEWEpZTDJMZyt0WVZacm1EWjlZeFlxL3BIUEFjSDlBQjhoQmpVUmNKYzF0Qlc4TXhSUTNqUFN1cDBCYmpORUs3YmN1WHlQU0dyenZNdFgvSUk5bHpkN1RZOW9hb2UrVXVGQmhrMlg2ZVdwRUFGK3ZVUjZQYkxJME5zdmxoV3Q3c0p2OUp5eXNPdUZHNE5HVXYvZ1VkRDN2bjh2ZE9aeXNFeHFMNnB2cXVBd28wQXc1dm95cHZQNFcvYXVualNnd0pvWk5GVGZTWHRGY3BUVURXODhDaG9rNVh1U1NBWWU1QnMzWEVDMkYxdUs2K3ZXalRNQnVMTjNCMnFxSXA1N21LLzNYV1ZQcmlVeVBNTS8wN0ZaSXgwUHFwM3Q4bHBFQlh0dGNxdnNPNGhuSGhQRmJVVC94cVZ1OFhXQXYzTHpBZ1hSc3ozL0hKdXFYdGk0OGhzUEVpbkRrMlF0ZDJHNmx2QjJYNzlYRk1WVlc0MmtCWmgvaERQL0JqSjV4aTZTeVdSTEhLS1c5Q2dOcjJQWXpFVE00eW9CbUV6c2VEREtGT3lSQ2NxR25waCtyTGJsa2w0SHlOM2hQMTZWTENxb1g4NXZFUlJ1Tm9QbWYrTHlIcVB2TG9NODEvVVBHdGduU1puakJhWHE2M3FsU0pqcVJ0SjFOc0kwMXVIRzlOb0J4eSt6M3pudXN3MzVacWVFd1BiL2hiYmV5TldlTFlOZ1BxZ0FVdXl3Z2tMSWlMU3pJamVTZEZ4U05weWRBVDArRllWZFU5eWR5Zy9KTjhxaWFSVEtNSjhxY09ZSWhPS2hXdzdzQ3RHYkpZVTVoVHNoZVNidUticElCUVhYb0hDZzVFbGUzRmJLMVBDUUR3YUl5YkdHQmRYdEVWOVFXZHNZa3F3NjZoU0l5ek9iRGs2NVQzd29GelpsVzBHQTUzMWRxd21maW1qSWY2Smdxalg0M1hvMk43c1JPeTMycUxWdEY3QzNGajVmMUVhWkF3WHl6d3VOeUI5Y1I2bkM3aDdsajRMbTB4NU82Y0pqcnNCTFd3WVRFLzAzbjlnT0JvWk1yM3d3WlYyQiIsImlhdCI6MTY1NzY1NzgwNCwiZXhwIjoxNjU4ODY3NDA0fQ.u0ImCa7ThsN2Rdsil-cWSumjBAxXfzbYo1UpCEV03g4; _mlocation=637640; _mlocation_mode=laas; uxs_uid=a2c18040-0221-11ed-87ea-93fc87eb159f; v=1657661110; buyer_laas_location=637640; dfp_group=33; isLegalPerson=0; _ym_visorc=b; redirectMav=1; sx=H4sIAAAAAAAC/5zRSc7jIBBA4buw9oKhKIrcBgqM5wyOjJ1fvnsri0idbS7w6UnvTxhnSUuQllqrIgROrtVGkyHOySkUlz+xiYt4+YeNtb7Gg2/1GikvPN+GyfAzur3eRSOyuCi0zoGSIM9GICJycth69BYBfXYxG5+clcwu+Y/st3bhaeoWBzAOz9DnfOxHLZS2Tkr8X3Zo4WyEIxUxS8qOrMnJ2pZRplYnaayNmD7yQPMa58c9TsNTPVaAZ9+PPQCyvnPcv5s1no3w3ktvICFrDg4So1ZJK6OVU57IfmRKV1XrrGm7HS+oI7BSc6dyOdpoqv6WzbuZ22UfjqzjNNZVch3XIq9rgfVDBjncDjYHpWq3BTua9gHHLhTTdY/wRUrv37EJLUZ2HKxD9jnInClkDKAxBUL6SdbqbES2s6ZlHzNcoRQGWQoUgMo/kdadjejHMbbL3G87FyokQTKvhdefXllznv8CAAD//1V24H67AgAA; _ga=GA1.2.1264586811.1652816766; tmr_detect=0|1657661274813; tmr_reqNum=40; _ga_9E363E7BES=GS1.1.1657657753.4.1.1657661289.5'
 search = 'склад'
 categoryId = 42
 locationId = 637640
@@ -24,16 +25,17 @@ headers = { 'authority': 'm.avito.ru',
             'sec-fetch-user': '?1',
             'sec-fetch-dest': 'document',
             'accept-language': 'ru-RU,ru;q=0.9',}
+
 if cookie:                                    
     headers['cookie'] = cookie
 s.headers.update(headers)                      
-print(s.get('https://m.avito.ru/').text)                   
-url_api_9 = 'https://m.avito.ru/api/1/rmp/'
+s.get('https://m.avito.ru/')                   
+url_api_9 = 'https://m.avito.ru/api/11/items'
 
 params = {
     'categoryId': categoryId,
     'params[536]': 5546,
-    'params[110799]': 472645,
+    'params[554]': 5727,
     'locationId': locationId,
     'sort': sort,
     'withImagesOnly': withImagesOnly,
@@ -92,7 +94,7 @@ def getIDS(filename = 'ids.ini'):
 
 
 def getInfo(id):
-    url_info = f'https://m.avito.ru/api/1/rmp/show/{id}'
+    url_info = f'https://m.avito.ru/api/18/items/{id}'
     params = {
         'key': key
     }
@@ -166,8 +168,7 @@ def SaveInfo(info, file_name = 'data.csv'):
 
 
 def main():
-    res = s.get('https://m.avito.ru/api/1/rmp/show/2338321304?key=af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir')
-    print(res)
+    print(s.get('https://m.avito.ru/api/18/items/2338321304?key=af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir&action=view&context=H4sIAAAAAAAA_0q0MrSqLrYytFKqULIutjI2tFIytCiwLEs2qSyzMK3Iqyw2yEwrSzc2NM03zs3Ir0hOU7KuBQQAAP__5cJxMDUAAAA').text)
     # title_csv = ['Название','Адрес','URL',
     #          'Цена','Координаты lat','Координаты lng',
     #          'Тип здания', 'Класс здания', 'Общая площадь', 
