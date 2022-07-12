@@ -88,28 +88,52 @@ def getIDS(f):
 
 
 def getInfo(id):
-    info = []
     url_info = f'https://m.avito.ru/api/18/items/{id}'
     params = {
         'key': key
     }
     info_js = s.get(url_info, params=params).json()
     if not 'error' in info_js:
-        f = open('test.json', mode = 'w')
-        json.dump(info_js, f)
+        return info_js
+        # f = open('test.json', mode = 'w')
+        # json.dump(info_js, f)
     else:
         print(info_js)
         
 
 # additionalSeller.parameters
-
+['Тип здания', 'Класс здания', 'Общая площадь', 'Этаж', 'Отделка', 'Залог', 'Комиссия, %', 'Категория', 'Парковка', 'Тип парковки', 'Отдельный вход','Общая площадь','Аренда части площади','Высота потолков, м','Включено в стоимость','Отопление','Отделка','Вход','Отдельный вход']
 def ParseInfo(info):
     title = info['title']
-    adress = info['address']
+    address = info['address']
     lat = info['coords']['lat']
     lng = info['coords']['lng']
     description = info['description']
-    print()
+    url = info['sharing']['url']
+    time = info['time']
+    price = info['price']['value']
+    images = info['images']
+    images_arr = []
+    name_company = info['seller']['name']
+    name_manager = info['seller']['manager']
+    postfix = info['seller']['postfix']
+    additionalSeller = info['additionalSeller']['parameters']
+    for parameter in additionalSeller:
+        title_p = parameter['title']
+        description_p = parameter['description']
+        print(f'{title_p} - {description_p}')
+    
+    for image in images:
+        images_arr.append(image['1280x960'])
+
+    parameters = info['parameters']['flat']
+    for parameter in parameters:
+        title_p = parameter['title']
+        description_p = parameter['description']
+        print(f'{title_p} - {description_p}')
+    user_hash = info['seller']['userHash']
+    url_seller = f'https://www.avito.ru/user/{user_hash}/profile'
+    print(url)
 
 def SaveInfo(info):
     csvFile = open('example2.csv', 'a')
@@ -122,15 +146,15 @@ def main():
     # f = open('ids.ino', mode = 'a')
     # ids = getIDS(f)
     # print(f'Всего объявлений: {len(ids)}')
-    # f = open('ids.ino', mode = 'r')
-    # ids = f.readlines()
-    # for i in range(len(ids)):
-    #     ids[i] = ids[i].strip()
-    # info = getInfo(ids[0])
+    f = open('ids.ino', mode = 'r')
+    ids = f.readlines()
+    for i in range(len(ids)):
+        info = getInfo(ids[i].strip())
+        ParseInfo(info)
     # SaveInfo([[]])
-    f = open('test.json', mode = 'r')
-    info = json.load(f)
-    ParseInfo(info)
+    # f = open('test.json', mode = 'r')
+    # info = json.load(f)
+    # ParseInfo(info)
 
 if __name__ == '__main__':
     main()
