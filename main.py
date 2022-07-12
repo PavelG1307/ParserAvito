@@ -48,11 +48,16 @@ params = {
 params['key'] =  key
 
 
-def getIDS(f):
+def writeInLog(message, location):
+    f = open('log.txt', mode = 'a')
+    f.write(f'Loc: {location}: {message}')
+
+def getIDS(filename = 'ids.ini'):
     ids = []
     cicle_stop = True       
     cikle = 0               
-    items = []             
+    items = []
+    f = open(filename, mode = 'a')             
     while cicle_stop:
         cikle += 1
         print(f'Страница: {cikle}')
@@ -84,7 +89,8 @@ def getIDS(f):
                 ad_id = str(item['value']['id'])
                 ids.append(ad_id)
                 f.write(str(ad_id) + '\n')
-    return ids
+    print(f'Всего объявлений: {len(ids)}')
+    return filename
 
 
 def getInfo(id):
@@ -102,56 +108,92 @@ def getInfo(id):
         
 
 # additionalSeller.parameters
-['Тип здания', 'Класс здания', 'Общая площадь', 'Этаж', 'Отделка', 'Залог', 'Комиссия, %', 'Категория', 'Парковка', 'Тип парковки', 'Отдельный вход','Общая площадь','Аренда части площади','Высота потолков, м','Включено в стоимость','Отопление','Отделка','Вход','Отдельный вход']
-def ParseInfo(info):
-    title = info['title']
-    address = info['address']
-    lat = info['coords']['lat']
-    lng = info['coords']['lng']
-    description = info['description']
-    url = info['sharing']['url']
-    time = info['time']
-    price = info['price']['value']
-    images = info['images']
-    images_arr = []
-    name_company = info['seller']['name']
-    name_manager = info['seller']['manager']
-    postfix = info['seller']['postfix']
-    additionalSeller = info['additionalSeller']['parameters']
-    for parameter in additionalSeller:
-        title_p = parameter['title']
-        description_p = parameter['description']
-        print(f'{title_p} - {description_p}')
+
+def ParseInfo(info, title_csv):
+    try:
+        info_parse = []
+        for i in range(len(title_csv)):
+            info_parse.append('')
+            
+        info_parse[0] = info['title']
+        info_parse[1]  = info['address']
+        info_parse[2]  = info['sharing']['url']
+        info_parse[3] = info['price']['value']
+        info_parse[4] = info['coords']['lat']
+        info_parse[5] = info['coords']['lng']
+        
+        additionalSeller = info['additionalSeller']['parameters']
+        for parameter in additionalSeller:
+            title_p = parameter['title']
+            if title_p in title_csv:
+                info_parse[title_csv.index(title_p)] = parameter['description']
+            else:
+                print(f'{title_p} не учтен!')
+                writeInLog(f'{title_p} не учтен!', 'parseMessage')
+                
+        parameters = info['parameters']['flat']
+        for parameter in parameters:
+            title_p = parameter['title']
+            if title_p in title_csv:
+                info_parse[title_csv.index(title_p)] = parameter['description']
+            else:
+                print(f'{title_p} не учтен!')
+                writeInLog(f'{title_p} не учтен!', 'parseMessage')
+                    
+        info_parse[25] = info['description']
+        images_str = ''
+        for image in info['images']:
+            images_str += image['1280x960'] + '; '
+        info_parse[26] = images_str
+         
+        info_parse[27] = info['time']
+        info_parse[28] = info['seller']['postfix']
+        info_parse[29] = info['seller']['name']
+        info_parse[30] = info['seller']['manager']
+
+        user_hash = info['seller']['userHash']
+        info_parse[31] = f'https://www.avito.ru/user/{user_hash}/profile'
+        return info_parse
     
-    for image in images:
-        images_arr.append(image['1280x960'])
+    except Exception as e:
+        writeInLog(f'Error {e}', 'parseMessage')
+        print(e)
+        return None
 
-    parameters = info['parameters']['flat']
-    for parameter in parameters:
-        title_p = parameter['title']
-        description_p = parameter['description']
-        print(f'{title_p} - {description_p}')
-    user_hash = info['seller']['userHash']
-    url_seller = f'https://www.avito.ru/user/{user_hash}/profile'
-    print(url)
-
-def SaveInfo(info):
-    csvFile = open('example2.csv', 'a')
+def SaveInfo(info, file_name = 'data.csv'):
+    csvFile = open(file_name, 'a')
     with csvFile:
         writer = csv.writer(csvFile)
-        writer.writerows(info)
+        writer.writerow(info)
 
 
 def main():
-    # f = open('ids.ino', mode = 'a')
-    # ids = getIDS(f)
-    # print(f'Всего объявлений: {len(ids)}')
-    f = open('ids.ino', mode = 'r')
+    
+    title_csv = ['Название','Адрес','URL',
+             'Цена','Координаты lat','Координаты lng',
+             'Тип здания', 'Класс здания', 'Общая площадь', 
+             'Этаж', 'Отделка', 'Залог', 
+             'Комиссия, %', 'Категория', 'Парковка', 
+             'Тип парковки', 'Отдельный вход','Общая площадь',
+             'Аренда части площади','Высота потолков, м','Включено в стоимость',
+             'Отопление','Отделка','Вход',
+             'Отдельный вход', 'Описание','Изображения', 
+             'Дата опубликования', 'Тип продавца','Название компании',
+             'Имя продавца','URL продавца']
+    
+    # file_ids = getIDS('ids.ino')
+    file_ids = 'ids.ini'
+    f = open(file_ids, mode = 'r')
     ids = f.readlines()
+    SaveInfo(title_csv)
     for i in range(len(ids)):
         info = getInfo(ids[i].strip())
-        ParseInfo(info)
-    # SaveInfo([[]])
+        parse_info = ParseInfo(info, title_csv)
+        if parse_info:
+            SaveInfo(parse_info)
+        else:
+            print(f'Ошибка на {i} объявлении, id: {ids[i]}')
+            writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
     # f = open('test.json', mode = 'r')
     # info = json.load(f)
     # ParseInfo(info)
@@ -161,26 +203,10 @@ if __name__ == '__main__':
 
 
 
-# https://m.avito.ru/api/18/items/2448175824?key=af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir&action=view&context=H4sIAAAAAAAA_xTKUcrDIAwA4LvkBGnUYtPD_KjR9h8ykHRoN3b34dv38AUm_igvDAN2ZTNxDq1Xye2_v1rVfru7t8f5tk9TD7SzOYbxp8c1bZHBGh83kmKSUHKbjyjBJ6GckbDEdQnZ0ZoE9u8vAAD___YojBJxAAAA
-####################################################################
-# params = {'key': key}
-# for i in items: # Теперь идем по ябъявлениям:
-#     ad_id = str(i['value']['id'])
-#     # url_more_data_1 = 'https://m.avito.ru/api/1/rmp/show/' + ad_id  # more_data_1 = s.get(url_more_data_1, params=params).json() # Тут тоже моного информации, можете посмотреть
-#     url_more_data_2 = 'https://m.avito.ru/api/15/items/' + ad_id
-#     more_data_2 = s.get(url_more_data_2, params=params).json()
-#     if not 'error' in more_data_2:
-#         # print(more_data_2)            # В more_data_2 есть всё, что надо, я вывел на принт наиболее интересные для наглядности:
-#         print(more_data_2['title'])
-#         print(more_data_2['price'])
-#         print(more_data_2['address'])
+
 #         url_get_phone = 'https://m.avito.ru/api/1/items/' + ad_id + '/phone'    # URL для получения телефона
 #         phone = s.get(url_get_phone, params=params).json()                      # Сам запрос
 #         if phone['status'] == 'ok': phone_number = requests.utils.unquote(phone['result']['action']['uri'].split('number=')[1]) # Прверка на наличие телефона, такой странный синтсксис, чтоб уместиться в 100 сторочек кода)))
 #         else: phone_number = phone['result']['message']
-#         print(phone_number)
-#         print(more_data_2['seller'])
-#         # print(more_data_2['description']) # Скрыл, т.к. много букв
-#         print('=======================================================\n')
 
 
