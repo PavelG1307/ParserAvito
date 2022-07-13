@@ -1,28 +1,444 @@
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Error phone_number
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Error 'NoneType' object is not subscriptable
-Loc: main: Ошибка на 458 объявлении, id: 2397896896
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 594 объявлении, id: 2373482998
 
-Loc: parseMessage: Количество парковочных мест не учтен!
-Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 803 объявлении, id: 2373845660
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 142 объявлении, id: 2460942177
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 328 объявлении, id: 2460903089
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 482 объявлении, id: 2294625328
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 587 объявлении, id: 2461744553
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 598 объявлении, id: 2461606503
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1003 объявлении, id: 2405833779
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1019 объявлении, id: 2340983016
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1111 объявлении, id: 2341097058
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1124 объявлении, id: 2405093481
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1202 объявлении, id: 2460986844
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1254 объявлении, id: 2405286171
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1260 объявлении, id: 2461517381
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1436 объявлении, id: 2341017604
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1458 объявлении, id: 2461341866
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1639 объявлении, id: 2461153933
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1820 объявлении, id: 2405101842
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1838 объявлении, id: 2461272086
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1901 объявлении, id: 2461050847
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 81 объявлении, id: 2430413253
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 82 объявлении, id: 2462977668
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 83 объявлении, id: 2373344732
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 84 объявлении, id: 2341680096
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 85 объявлении, id: 2149252217
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 86 объявлении, id: 2373814800
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 87 объявлении, id: 2341797005
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 88 объявлении, id: 2430108234
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 89 объявлении, id: 2427999302
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 90 объявлении, id: 2430588010
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 91 объявлении, id: 2463214294
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 92 объявлении, id: 2462918383
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 93 объявлении, id: 2405376412
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 94 объявлении, id: 2463420421
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 95 объявлении, id: 2430615327
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 96 объявлении, id: 2463256753
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 97 объявлении, id: 2463577165
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 98 объявлении, id: 2463040662
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 99 объявлении, id: 2463695790
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 100 объявлении, id: 2364232569
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 101 объявлении, id: 2085266095
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 102 объявлении, id: 2405261167
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 103 объявлении, id: 2463532175
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 104 объявлении, id: 2439231482
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 105 объявлении, id: 2405589667
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 106 объявлении, id: 2463219882
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 107 объявлении, id: 2308773392
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 108 объявлении, id: 2463478558
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 109 объявлении, id: 2147032939
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 110 объявлении, id: 2437236584
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 111 объявлении, id: 2367483168
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 112 объявлении, id: 1987471168
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 113 объявлении, id: 2148889677
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 114 объявлении, id: 2341637070
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 115 объявлении, id: 2463325095
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 116 объявлении, id: 2373803514
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 117 объявлении, id: 1797127740
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 118 объявлении, id: 2463636246
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 119 объявлении, id: 2463461569
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 120 объявлении, id: 2405083200
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 121 объявлении, id: 2481555691
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 122 объявлении, id: 2463105390
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 123 объявлении, id: 2212949577
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 124 объявлении, id: 1998976210
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 125 объявлении, id: 2463007897
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 126 объявлении, id: 2463097810
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 127 объявлении, id: 2181844590
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 128 объявлении, id: 2437354261
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 129 объявлении, id: 2463535793
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 130 объявлении, id: 2430197602
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 131 объявлении, id: 2203027522
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 132 объявлении, id: 2341837429
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 133 объявлении, id: 2461812702
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 134 объявлении, id: 2437689861
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 135 объявлении, id: 2179933388
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 136 объявлении, id: 2463230752
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 137 объявлении, id: 2427596213
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 138 объявлении, id: 2180763321
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 139 объявлении, id: 2437774429
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 140 объявлении, id: 2462995677
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 141 объявлении, id: 2449662174
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 142 объявлении, id: 2341016938
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 143 объявлении, id: 2430249711
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 144 объявлении, id: 2430479712
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 145 объявлении, id: 2325770348
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 146 объявлении, id: 2205342832
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 147 объявлении, id: 2430502858
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 148 объявлении, id: 2373327476
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 149 объявлении, id: 2437114335
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 150 объявлении, id: 2463476116
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 151 объявлении, id: 2341004077
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 152 объявлении, id: 2203524930
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 153 объявлении, id: 2463347950
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 154 объявлении, id: 2463579476
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 155 объявлении, id: 2373345102
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 156 объявлении, id: 2463159575
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 157 объявлении, id: 2463006372
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 158 объявлении, id: 2449245046
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 159 объявлении, id: 2373718911
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 160 объявлении, id: 2463327228
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 161 объявлении, id: 2463214513
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 162 объявлении, id: 2430164855
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 163 объявлении, id: 2407589835
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 164 объявлении, id: 2463074858
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 165 объявлении, id: 2463597629
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 166 объявлении, id: 2341051987
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 167 объявлении, id: 2405355815
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 168 объявлении, id: 2405247188
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 169 объявлении, id: 2453794193
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 170 объявлении, id: 2463086838
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 171 объявлении, id: 2340894632
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 172 объявлении, id: 2373491646
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 173 объявлении, id: 2454650392
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 174 объявлении, id: 2069714626
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 175 объявлении, id: 2430607098
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 176 объявлении, id: 2462867286
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 177 объявлении, id: 2373158440
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 178 объявлении, id: 2341719306
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 179 объявлении, id: 2463160580
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 180 объявлении, id: 2446170906
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 181 объявлении, id: 2426887553
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 182 объявлении, id: 2463112208
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 183 объявлении, id: 2463678792
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 184 объявлении, id: 2180570190
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 185 объявлении, id: 2205422862
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 186 объявлении, id: 2463298563
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 187 объявлении, id: 2463734983
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 188 объявлении, id: 2430506668
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 189 объявлении, id: 569894759
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 190 объявлении, id: 2302753158
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 191 объявлении, id: 2341727698
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 192 объявлении, id: 2463431079
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 193 объявлении, id: 2463554062
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 194 объявлении, id: 1987482566
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 195 объявлении, id: 2463035071
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 0 объявлении, id: 2430413253
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1 объявлении, id: 2462977668
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2 объявлении, id: 2373344732
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 52 объявлении, id: 2461812702
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 135 объявлении, id: 2460948062
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 176 объявлении, id: 2461178272
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 192 объявлении, id: 2461265484
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 212 объявлении, id: 2341404612
+
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 368 объявлении, id: 2341267851
+
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 437 объявлении, id: 2405300118
+
