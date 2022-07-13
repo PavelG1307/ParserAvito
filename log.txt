@@ -1,6 +1,28 @@
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 0 объявлении, id: 2267560401
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 1 объявлении, id: 2412726195
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 0 объявлении, id: 2267560401
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 1 объявлении, id: 2412726195
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 0 объявлении, id: 2267560401
-Loc: parseMessage: Error 'NoneType' object is not subscriptableLoc: main: Ошибка на 1 объявлении, id: 2412726195
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 458 объявлении, id: 2397896896
+
+Loc: parseMessage: Количество парковочных мест не учтен!
+Loc: parseMessage: Количество парковочных мест не учтен!
