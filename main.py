@@ -8,7 +8,7 @@ title_csv = ['ID', 'Название','Адрес','URL',
             'Комиссия, %', 'Категория', 'Парковка', 
             'Тип парковки', 'Отдельный вход',
             'Аренда части площади','Высота потолков, м','Включено в стоимость', 'Несколько этажей',
-            'Отопление','Отделка','Вход', 'Количество парковочных мест',
+            'Отопление','Вход', 'Количество парковочных мест',
             'Отдельный вход', 'Описание','Изображения', 
             'Дата опубликования', 'Тип продавца','Название компании',
             'Имя продавца','URL продавца', 'Номер телефона']
@@ -17,8 +17,9 @@ title_csv = ['ID', 'Название','Адрес','URL',
 
 
 def main():
-    parser = Parser(cookie=cookie, log_file='log.txt')
-    parser.parse(search='Склад', categoryId=42, only_info=True, locationId=621540, title_csv=title_csv, file = 'new_data.csv', sort = 'priceDesc', withImagesOnly = 'false')
+    parser = Parser(cookie=cookie, log_file='log.txt', timeout = 5)
+    parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
+    parser.parse(search='Склад', categoryId=42, only_info=True, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
 
 
 if __name__ == '__main__':

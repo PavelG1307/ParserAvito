@@ -3,15 +3,28 @@ import csv
 import json
 import time
 import sys
+from db import DBController
 
 class Parser():
 
-    def __init__(self, cookie, log_file = 'log.txt'):
+    def __init__(self, cookie, log_file = 'log.txt', timeout = 1):
         self.key = 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir'
         self.limit_page = 50
         self.cookie = cookie
         self.log_file = log_file
+        self.saveInDb = False
+        self.timeout = timeout
         
+
+    def connectDB(self, dbname, user, password, host, saveInDb=True):
+        try:
+            self.db = DBController(dbname=dbname, user=user, password=password, host=host)
+            self.saveInDb = saveInDb
+            return True
+        except Exception as e:
+            print(e)
+            return False
+
 
     def changeCookie(self, cookie):
         self.cookie = cookie
@@ -43,7 +56,7 @@ class Parser():
 
 
     def writeInLog(self, message, location):
-        f = open(self.log.file, mode = 'a')
+        f = open(self.log_file, mode = 'a')
         f.write(f'Loc: {location}: {message}\n')
 
 
@@ -96,10 +109,13 @@ class Parser():
 
 
     def SaveInfo(self, info):
-        csvFile = open(self.file, 'a')
-        with csvFile:
-            writer = csv.writer(csvFile)
-            writer.writerow(info)
+        if self.saveInDb:
+            self.db.saveItems(self.json_resp)
+        else:
+            csvFile = open(self.file, 'a')
+            with csvFile:
+                writer = csv.writer(csvFile)
+                writer.writerow(info)
 
 
     def readIds(self, filename = 'ids.ini'):
@@ -127,6 +143,13 @@ class Parser():
 
 
     def insertToResp(self, data, title):
+        if self.saveInDb:
+            if title in self.title_csv:
+                self.json_resp[title] = data
+            else:
+                print(f'{title} не учтен!')
+                self.writeInLog(f'{title} не учтен!', 'parseMessage')
+        else:
             if title in self.title_csv:
                 self.response[self.title_csv.index(title)] = data
             else:
@@ -156,14 +179,18 @@ class Parser():
             self.insertToResp(info['description'], 'Описание')
 
             images_str = ''
+            image_json = {}
 
             try:
-                for image in info['images']:
-                    images_str += image['1280x960'] + '; '
+                for i in range(len(info['images'])):
+                    image_json[str(i)] = info['images'][i]['1280x960']
+                    images_str += info['images'][i]['1280x960'] + '; '
             except Exception:
                 pass
-
-            self.insertToResp(images_str, 'Изображения')
+            if self.saveInDb:
+                self.insertToResp(image_json, 'Изображения')
+            else:
+                self.insertToResp(images_str, 'Изображения')
             
             self.insertToResp(info['time'], 'Дата опубликования')
 
@@ -197,7 +224,7 @@ class Parser():
             return None
 
 
-    def parse(self, search, categoryId, locationId, title_csv, save_title=True, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false'):
+    def parse(self, search, categoryId, locationId, title_csv, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
         self.raiseSession()
         self.search = search
         self.categoryId = categoryId
@@ -214,11 +241,19 @@ class Parser():
             'query': search,
             'key': self.key,
         }
+
+        if priceMin:
+            self.params['priceMin': priceMin]
+        if priceMax:
+            self.params['priceMax': priceMax]
+            
         self.title_csv = title_csv
         self.file = file
         if (not only_info):
             self.getIDS(fileIds)
-        if (save_title):
+        if (only_ids):
+            return self.file
+        if (save_title and not self.saveInDb):
             self.SaveInfo(info = title_csv)
         ids = self.readIds(filename = fileIds)
         
@@ -227,6 +262,7 @@ class Parser():
             self.response = []
             for j in range(len(title_csv)):
                 self.response.append('')
+            self.json_resp = {}
             parse_info = self.ParseInfo(info=info)
             if parse_info:
                 self.SaveInfo(self.response)
@@ -234,4 +270,4 @@ class Parser():
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
-            time.sleep(1)
+            time.sleep(self.timeout)
