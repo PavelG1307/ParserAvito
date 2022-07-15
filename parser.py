@@ -159,6 +159,19 @@ class Parser():
 
     def ParseInfo(self, info):
         try:
+            if 'контейнер' in info['description']:
+                self.insertToResp('container', 'Тип')
+                area = int(info['firebaseParams']['area'].split(' ')[0])
+                if area <= 15 and area >= 10:
+                    self.insertToResp('20', 'Объем контейнера')
+                elif area <= 21 and area >= 20:
+                    self.insertToResp('20', 'Объем контейнера')
+
+            elif 'склад' in info['description']:
+                self.insertToResp('warehouse', 'Тип')
+            else:
+                self.insertToResp('', 'Тип')
+
             self.insertToResp(info['firebaseParams']['itemID'], 'ID')
             self.insertToResp(info['title'], 'Название')
             self.insertToResp(info['address'], 'Адрес')
@@ -177,7 +190,6 @@ class Parser():
                 self.insertToResp(parameter['description'], parameter['title'])
                 
             self.insertToResp(info['description'], 'Описание')
-
             images_str = ''
             image_json = {}
 
@@ -246,7 +258,7 @@ class Parser():
             self.params['priceMin': priceMin]
         if priceMax:
             self.params['priceMax': priceMax]
-            
+        
         self.title_csv = title_csv
         self.file = file
         if (not only_info):
