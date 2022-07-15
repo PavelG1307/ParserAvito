@@ -47,7 +47,7 @@ class Parser():
         f.write(f'Loc: {location}: {message}\n')
 
 
-    def getIDS(self, filename = 'ids.ini', session = None):
+    def getIDS(self, filename = 'ids.ini'):
         ids = []
         cicle_stop = True       
         cikle = 0               
@@ -61,7 +61,7 @@ class Parser():
             self.params['page'] = cikle
             page = self.params['page']
             print(f'Страница: {page}')
-            res = session.get(url_api_9, params=self.params)
+            res = self.session.get(url_api_9, params=self.params)
             try:
                 res = res.json()
                 g = open('test.json', mode = 'w')
@@ -112,12 +112,12 @@ class Parser():
             return None
 
 
-    def getInfo(self, id, session):
+    def getInfo(self, id):
         url_info = f'https://m.avito.ru/api/18/items/{id}'
         self.params = {
             'key': self.key
         }
-        info_js = session.get(url_info, params=self.params).json()
+        info_js = self.session.get(url_info, params=self.params).json()
         if not 'error' in info_js:
             f = open('log_req.json', mode = 'w')
             json.dump(info_js, f)
@@ -197,16 +197,11 @@ class Parser():
             return None
 
 
-    def parse(self, search, categoryId, locationId, title_csv, file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false'):
+    def parse(self, search, categoryId, locationId, title_csv, save_title=True, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false'):
+        self.raiseSession()
         self.search = search
         self.categoryId = categoryId
         self.locationId = locationId
-        self.raiseSession()
-        self.title_csv = title_csv
-        self.file = file
-        file_ids = self.getIDS('ids.ini')
-        self.SaveInfo(info = title_csv)
-        ids = self.readIds(self, filename = file_ids)
         self.params = {
             'categoryId': categoryId,
             'params[536]': 5546,
@@ -219,16 +214,22 @@ class Parser():
             'query': search,
             'key': self.key,
         }
-
+        self.title_csv = title_csv
+        self.file = file
+        if (not only_info):
+            self.getIDS(fileIds)
+        if (save_title):
+            self.SaveInfo(info = title_csv)
+        ids = self.readIds(filename = fileIds)
+        
         for i in range(len(ids)):
             info = self.getInfo(ids[i].strip())
             self.response = []
-            for i in range(len(title_csv)):
+            for j in range(len(title_csv)):
                 self.response.append('')
-
             parse_info = self.ParseInfo(info=info)
             if parse_info:
-                self.SaveInfo(parse_info)
+                self.SaveInfo(self.response)
                 print('Добавлено ' + str(i+1) + ' объявлений')
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')

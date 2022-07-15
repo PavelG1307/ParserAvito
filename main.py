@@ -18,7 +18,7 @@ title_csv = ['ID', 'Название','Адрес','URL',
 
 def main():
     parser = Parser(cookie=cookie, log_file='log.txt')
-    parser.parse(search='Склад', categoryId=42, locationId=621540, title_csv=title_csv, file = 'new_data.csv', sort = 'priceDesc', withImagesOnly = 'false')
+    parser.parse(search='Склад', categoryId=42, only_info=True, locationId=621540, title_csv=title_csv, file = 'new_data.csv', sort = 'priceDesc', withImagesOnly = 'false')
 
 
 if __name__ == '__main__':
