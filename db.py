@@ -38,14 +38,17 @@ class DBController:
     def saveItems(self, item):
         structures = self.structures
         self.parents = []
-        if item['Тип'] == 'container':
-            self.parents.append(structures['Контейнер'])
-        elif item['Тип'] == 'warehouse': 
-            self.parents.append(structures['Склад'])
-        elif item['Тип'] == 'space':
-            self.parents.append(structures['Площадка'])
-        elif item['Тип'] == 'box':
-            self.parents.append(structures['Площадка'])
+        try:
+            if item['Тип'] == 'container':
+                self.parents.append(structures['Контейнер'])
+            elif item['Тип'] == 'warehouse': 
+                self.parents.append(structures['Склад'])
+            elif item['Тип'] == 'space':
+                self.parents.append(structures['Площадка'])
+            elif item['Тип'] == 'box':
+                self.parents.append(structures['Площадка'])
+        except Exception:
+            pass
 
         avito_id = item['ID']
         name = item['Название']
