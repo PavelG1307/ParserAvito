@@ -109,7 +109,7 @@ class Parser():
         self.fileIds = filename
 
 
-    def get_ids_from_user(self, id_hash):
+    def get_ids_from_user(self, id_hash, category_id = 42):
         ids = []
         items = []
         url = 'https://m.avito.ru/api/1/user/profile/items?'
@@ -144,12 +144,13 @@ class Parser():
             if res['status'] == 'ok':
                 items_page = int(len(res['result']['items']))
 
-                if items_page > self.limit_page: # проверка на "snippet"
+                if items_page > self.limit_page:
                     items_page = items_page - 1
 
                 for item in res['result']['items']:
                     if item['type'] == 'item':
-                        items.append(item)
+                        if item['value']['category']['id'] == category_id:
+                            items.append(item)
                 if items_page < self.limit_page:
                     cicle_stop = False
             for item in items:

@@ -16,6 +16,7 @@ class Server():
             data_p = data.split('\n')
             type = data_p[0].split(' ')[0]
             url = data_p[0].split(' ')[1]
+            print(url)
             params={}
             endpoint = url.split('?')[0]
             if len(url.split('?')) > 1:
