@@ -14,7 +14,7 @@ class DBController:
         return self.cursor.fetchall()
 
     def getStructures(self):
-        self.cursor.execute(f'SELECT name, uuid, parents FROM {self.structures_table} ')
+        self.cursor.execute(f'SELECT name, uuid, parents FROM {self.structures_table} WHERE avito_id IS NULL')
         self.structures = {}
         self.uuid_i = {}
         self.resp = self.cursor.fetchall()
@@ -31,52 +31,27 @@ class DBController:
             if item[0] == value:
                 name_parent = self.uuid_i[item[2][1:-1].split(',')[0]]
                 if name_parent == parent:
-                    self.parents.append(item[1])
+                    self.parents += "'" + item[1] + "'::uuid,"
                     break
                 
         
     def saveItems(self, item):
+        uuid_item = str(uuid.uuid4())
+        name = item['Название']
+        self.parents = 'ARRAY ['
         structures = self.structures
-        self.parents = []
         try:
             if item['Тип'] == 'container':
-                self.parents.append(structures['Контейнер'])
+                self.parents += "'" + structures['Контейнер'] + "'::uuid,"
             elif item['Тип'] == 'warehouse': 
-                self.parents.append(structures['Склад'])
+                self.parents  += "'" + structures['Склад'] + "'::uuid,"
             elif item['Тип'] == 'space':
-                self.parents.append(structures['Площадка'])
+                self.parents += "'" + structures['Площадка'] + "'::uuid,"
             elif item['Тип'] == 'box':
-                self.parents.append(structures['Площадка'])
+                self.parents += "'" + structures['Площадка'] + "'::uuid,"
         except Exception:
             pass
 
-        avito_id = item['ID']
-        name = item['Название']
-        address = item['Адрес']
-        url = item['URL']
-        price = item["Цена"]
-        capacity = item["Общая площадь"].split(' ')[0]
-        if item['ЕИ цены'] == '₽ в месяц':
-            interval = 'month'
-        elif item['ЕИ цены'] == '₽ в год':
-            interval = 'years'
-        elif item['ЕИ цены'] == '₽ в месяц за м²':
-            price = price * capacity
-            interval = 'month'
-        elif item['ЕИ цены'] == '₽ в год за м²':
-            price = price * capacity
-            interval = 'years'
-            
-        
-        # url_seller = item['URL продавца']
-        # name_seller = item['Название компании']
-        # type_seller = item['Тип продавца']
-        # time_load = item['Дата опубликования']
-        
-            # 'Аренда части площади'
-            # 'Номер телефона'
-            # 'Имя продавца'
-            
         titles = ['Тип здания', 'Классы склада', 'Этаж', 'Отделка', 'Залог','Парковка','Тип парковки','Отдельный вход','Категория', 'Несколько этажей',
             'Отопление','Вход', 'Количество парковочных мест','Описание','Изображения', 'Комиссия, %','Включено в стоимость', 'Аренда части площади']
         
@@ -86,7 +61,8 @@ class DBController:
                 self.InsertIntoParrent(value, title)
             except Exception:
                 pass
-        if item['Высота потолков, м']:
+
+        try:
             h = float(item['Высота потолков, м'])
             if h <= 1:
                 self.InsertIntoParrent('1', 'Высота потолка, м')
@@ -100,9 +76,110 @@ class DBController:
                 self.InsertIntoParrent('5', 'Высота потолка, м')
             elif h > 5:
                 self.InsertIntoParrent('Более 5 метров', 'Высота потолка, м')
+        except Exception:
+            pass
+        
+        if self.parents != 'ARRAY [':
+            self.parents = self.parents[:-1] + ']'
+        else:
+            self.parents = self.parents + ']'
+        
+        
+        
+        price = int("".join(item["Цена"].split()))
+        capacity = float("".join(item["Общая площадь"].split(' ')[0].split()))
+        if item['ЕИ цены'] == '₽ в месяц':
+            interval = 'month'
+        elif item['ЕИ цены'] == '₽ в год':
+            interval = 'years'
+        elif item['ЕИ цены'] == '₽ в месяц за м²':
+            price = price * capacity
+            interval = 'month'
+        elif item['ЕИ цены'] == '₽ в год за м²':
+            price = price * capacity
+            interval = 'years'
+        lat = item["Координаты lat"]
+        lng = item["Координаты lng"]
+        coords = f'ARRAY [{lat},{lng}]'
+        address = item['Адрес']
+        url = item['URL']
+        avito_id = item['ID']
+        time_load = item['Дата опубликования']
+        image_str = ''''{"images": ['''
+        for image in item['Изображения']:
+            image_str += '"' + item['Изображения'][image] + '",'
+        
+        if image_str == ''''{"images": [''':
+            image_str += "]}'"
+        else:
+            image_str = image_str[:-1] + "]}'"
+        try:
+            if item['Аренда части помещения'] == 'Да':
+                is_partible = 'true'
+            else:
+                is_partible = 'false'
+        except Exception:
+            is_partible = 'false'
+        
+        url_seller = item['URL продавца']
+        name_seller = item['Название компании']
+        type_seller = item['Тип продавца']
+
+        try:
+            phone_number = item['Номер телефона']
+        except Exception:
+            phone_number = ''
+
+        query = f'''INSERT INTO public.structures3 (
+            id,
+            uuid, 
+            name, 
+            parents, 
+            price, 
+            coords, 
+            address, 
+            files, 
+            interval, 
+            capacity, 
+            is_partible, 
+            avito_id, 
+            url, 
+            url_seller, 
+            name_seller, 
+            type_seller, 
+            phone_number,
+            owner_uuid
+            ) VALUES (
+                DEFAULT,
+                '{uuid_item}'::uuid,
+                '{name}',
+                {self.parents},
+                {price},
+                {coords},
+                '{address}',
+                {image_str},
+                '{interval}',
+                {capacity},
+                {is_partible},
+                {avito_id},
+                '{url}',
+                '{url_seller}',
+                '{name_seller}',
+                '{type_seller}',
+                '{phone_number}',
+                '6359e4c1-f06d-412b-a974-64d65f4fec61'::uuid
+            );'''
+        print(query)
+        
+        self.cursor.execute(query)
+        self.conn.commit()
+            # 'Номер телефона'
+            # 'Имя продавца'
+            
+        
+        
         # value = item[titles[1]]
         # self.InsertIntoParrent(value, titles[1])
-        # coords = {item["Координаты lat"], item["Координаты lng"]}
-        print(self.parents)
+        # 
         # print(self.executeAll('structures3'))
         pass

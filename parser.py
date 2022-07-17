@@ -108,6 +108,59 @@ class Parser():
         self.fileIds = filename
 
 
+    def get_ids_from_user(self, id_hash):
+        ids = []
+        items = []
+        url = 'https://m.avito.ru/api/1/user/profile/items?'
+        params = {
+            'key': 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir',
+            'limit': 50,
+            'sellerId': id_hash,
+            'display': 'grid' 
+        }
+        file = './assets/ids/' + id_hash + '.ini'
+        f = open(file, mode = 'w')  
+        cicle_stop = True
+        cikle = 0            
+        while cicle_stop:
+            cikle += 1
+            params['page'] = cikle
+            page = params['page']
+            print(f'Страница: {page}')
+            res = self.session.get(url, params=params)
+            try:
+                res = res.json()
+                g = open('./temp/test.json', mode = 'w')
+                json.dump(res, g)
+
+            except json.decoder.JSONDecodeError:
+                cicle_stop = False
+                break
+
+            if res['status'] != 'ok':
+                    print(res)
+                    sys.exit(1)
+            if res['status'] == 'ok':
+                items_page = int(len(res['result']['items']))
+
+                if items_page > self.limit_page: # проверка на "snippet"
+                    items_page = items_page - 1
+
+                for item in res['result']['items']:
+                    if item['type'] == 'item':
+                        items.append(item)
+                if items_page < self.limit_page:
+                    cicle_stop = False
+            for item in items:
+                if item['type'] == 'item':
+                    ad_id = str(item['value']['id'])
+                    if not ad_id in ids:
+                        ids.append(ad_id)
+                        f.write(str(ad_id) + '\n')
+        print(f'Всего объявлений: {len(ids)}')
+        self.fileIds = file
+
+
     def SaveInfo(self, info):
         if self.saveInDb:
             self.db.saveItems(self.json_resp)
@@ -122,6 +175,8 @@ class Parser():
         try:
             f = open(filename, mode = 'r')
             ids = f.readlines()
+            for i in range(len(ids)):
+                ids[i] = ids[i].strip()
             return ids
         except Exception as e:
             print(e)
@@ -134,7 +189,6 @@ class Parser():
             'key': self.key
         }
         info_js = self.session.get(url_info, params=self.params).json()
-        print(info_js)
         if not 'error' in info_js:
             f = open('log_req.json', mode = 'w')
             json.dump(info_js, f)
@@ -162,7 +216,7 @@ class Parser():
         try:
             if 'контейнер' in info['description'].lower():
                 self.insertToResp('container', 'Тип')
-                area = int(info['firebaseParams']['area'].split(' ')[0])
+                area = float(info['firebaseParams']['area'].split(' ')[0])
                 if area <= 15 and area >= 10:
                     self.insertToResp('20', 'Объем контейнера')
                 elif area <= 21 and area >= 20:
@@ -240,53 +294,56 @@ class Parser():
             return None
 
 
-    def parse(self, search, categoryId, locationId, title_csv, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
-        # self.raiseSession()
-        # self.search = search
-        # self.categoryId = categoryId
-        # self.locationId = locationId
-        # self.params = {
-        #     'categoryId': categoryId,
-        #     'params[536]': 5546,
-        #     'params[554]': 5727,
-        #     'locationId': locationId,
-        #     'withImagesOnly': withImagesOnly,
-        #     'lastStamp': 1657706700,
-        #     'display': 'list',
-        #     'limit': self.limit_page,
-        #     'query': search,
-        #     'key': self.key,
-        # }
+    def parse(self, search, categoryId, locationId, title_csv, user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
+        self.raiseSession()
+        self.search = search
+        self.categoryId = categoryId
+        self.locationId = locationId
+        self.params = {
+            'categoryId': categoryId,
+            'params[536]': 5546,
+            'params[554]': 5727,
+            'locationId': locationId,
+            'withImagesOnly': withImagesOnly,
+            'lastStamp': 1657706700,
+            'display': 'list',
+            'limit': self.limit_page,
+            'query': search,
+            'key': self.key,
+        }
 
-        # if priceMin:
-        #     self.params['priceMin': priceMin]
-        # if priceMax:
-        #     self.params['priceMax': priceMax]
+        if priceMin:
+            self.params['priceMin': priceMin]
+        if priceMax:
+            self.params['priceMax': priceMax]
         
-        # self.title_csv = title_csv
-        # self.file = file
-        # if (not only_info):
-        #     self.getIDS(fileIds)
-        # if (only_ids):
-        #     return self.file
-        # if (save_title and not self.saveInDb):
-        #     self.SaveInfo(info = title_csv)
-        # ids = self.readIds(filename = fileIds)
+        self.title_csv = title_csv
+        self.file = file
+        if (not only_info):
+            if not user_id_hash:
+                self.getIDS(fileIds)
+            else:
+                self.get_ids_from_user(user_id_hash)
+        if (only_ids):
+            return self.file
+        if (save_title and not self.saveInDb):
+            self.SaveInfo(info = title_csv)
+        ids = self.readIds(filename = self.fileIds)
         
-        # for i in range(len(ids)):
-            # info = self.getInfo(ids[i].strip())
-            # self.response = []
-            # for j in range(len(title_csv)):
-            #     self.response.append('')
-            # self.json_resp = {}
-            # parse_info = self.ParseInfo(info=info)
-            # if parse_info:
-            #     self.SaveInfo(self.response)
-            #     print('Добавлено ' + str(i+1) + ' объявлений')
-            # else:
-            #     print(f'Ошибка на {i} объявлении, id: {ids[i]}')
-            #     self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
-            # time.sleep(self.timeout)
-        f = open('test.json', mode = 'r')
-        test_info = json.load(f)
-        self.db.saveItems(test_info)
+        for i in range(len(ids)):
+            info = self.getInfo(ids[i].strip())
+            self.response = []
+            for j in range(len(title_csv)):
+                self.response.append('')
+            self.json_resp = {}
+            parse_info = self.ParseInfo(info=info)
+            if parse_info:
+                self.SaveInfo(self.response)
+                print('Добавлено ' + str(i+1) + ' объявлений')
+            else:
+                print(f'Ошибка на {i} объявлении, id: {ids[i]}')
+                self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
+            time.sleep(self.timeout)
+        # f = open('test.json', mode = 'r')
+        # test_info = json.load(f)
+        # self.db.saveItems(test_info)
