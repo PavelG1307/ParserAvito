@@ -19,29 +19,67 @@ title_csv = ['ID', 'Тип', 'Название','Адрес','URL',
 
 id_user_parsing = []
 error_user_parsing = []
+result = {}
 
-def parse(id_hash):
-    id_user_parsing.append(id_hash)
-    count = 0
-    while(True):
-        print('.')
-        count+=1
-        time.sleep(2)
-        if count>5:
-            break
-    id_user_parsing.remove(id_hash)
+def parse(id_hash, query='Склад', locationId=621540):
+    if id_hash not in id_user_parsing:
+        id_user_parsing.append(id_hash)
+        if id_hash in error_user_parsing:
+            error_user_parsing.remove(id_hash)
+        try:
+
+            for i in range(5):
+                print('.')
+                time.sleep(2)
+            result[id_hash] = {"id": 1, "name":"fff"}
+            
+        except Exception as e:
+            print(e)
+            error_user_parsing.append(id_hash)
+        finally:
+            id_user_parsing.remove(id_hash)
 
 async def handle_get_endpoints(endpoint, params):
-    print(endpoint, params)
     try:
         if endpoint == '/api/parse':
             print(f'Parsing user {params["user"]}')
             Thread(target=parse, args = (params["user"],)).start()
-            await asyncio.sleep(1)
+            await asyncio.sleep(0.5)
+            if params["user"] in id_user_parsing and params["user"] not in error_user_parsing:
+                return {'res': {"status": "ok"}, 'code': 200}
+            else:
+                return {'res': {"status": "error"}, 'code':500}
+
+        elif endpoint == '/api/parse/check':
             if params["user"] in id_user_parsing:
-                return {"status": "ok"}
+                res = {
+                    "status": "ok",
+                    'parsing': True 
+                }
+                code = 200
+            elif params["user"] not in error_user_parsing:
+                res = {
+                    "status": "ok",
+                    "parsing": False, 
+                }
+                code = 200
+                if params["user"] in result.keys():
+                    res["last_result"] = result[params["user"]]
+                else:
+                    res["last_result"] = {}
+            else:
+                res = {
+                    "status": "error",
+                    "parsing": False, 
+                }
+                code = 500
+            return {'res': res, 'code': code}
+        
+        else: 
+            return {'res': {'status': 'error'}, 'code': 400}
+ 
     except Exception:
-        return {"status": "Bad request"}
+        return {'res': {"status": "error"}, 'code': 400}
 
 
 async def handl(serv):
@@ -49,16 +87,22 @@ async def handl(serv):
     data = client_socket.recv(1024).decode('utf-8')
     data_p = serv.parse_rec(data)
     if data_p['type'] == 'GET':
-        res = await handle_get_endpoints(data_p['endpoint'], data_p['params'])
-        # res = handle_get_endpoints(data_p['endpoint'], data_p['params'])
-        client_socket.send(f'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{res}'.encode('utf-8'))
+        r = await handle_get_endpoints(data_p['endpoint'], data_p['params'])
+        print(f'res{r}')
+        if r['code'] == 500:
+            answ = f'HTTP/1.1 500 Internal Server Error\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+        elif r['code'] == 400:
+            answ = f'HTTP/1.1 400 Bad Request\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+        else:
+            answ = f'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+        client_socket.send(answ)
 
 
 def main():
     # parser = Parser(cookie=cookie, log_file='log.txt', timeout = 5)
     # parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
     
-    serv = Server(port = 8000)
+    serv = Server(port = 8080)
     while(True):
         loop = asyncio.get_event_loop()
         loop.run_until_complete(handl(serv))

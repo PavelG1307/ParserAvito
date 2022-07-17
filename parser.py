@@ -23,6 +23,7 @@ class Parser():
             return True
         except Exception as e:
             print(e)
+            raise 'Error DB'
             return False
 
 
@@ -344,6 +345,3 @@ class Parser():
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
             time.sleep(self.timeout)
-        # f = open('test.json', mode = 'r')
-        # test_info = json.load(f)
-        # self.db.saveItems(test_info)

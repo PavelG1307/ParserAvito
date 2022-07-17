@@ -2,6 +2,8 @@ import psycopg2
 import uuid
 
 class DBController:
+
+
     def __init__(self, dbname, user, password, host):
         self.conn = psycopg2.connect(dbname=dbname, user=user, 
                         password=password, host=host)
@@ -9,9 +11,11 @@ class DBController:
         self.structures_table = 'structures3'
         self.getStructures()
 
+
     def executeAll(self, tablename):
         self.cursor.execute(f'SELECT * FROM {tablename}')
         return self.cursor.fetchall()
+
 
     def getStructures(self):
         self.cursor.execute(f'SELECT name, uuid, parents FROM {self.structures_table} WHERE avito_id IS NULL')
@@ -21,10 +25,12 @@ class DBController:
         for i in range(len(self.resp)):
             self.structures[self.resp[i][0]] = self.resp[i][1]
             self.uuid_i[self.resp[i][1]] = self.resp[i][0]
-        
+
+     
     def close(self):
         self.cursor.close()
         self.onn.close()
+
 
     def InsertIntoParrent(self, value, parent):
         for item in self.resp:
@@ -78,12 +84,11 @@ class DBController:
                 self.InsertIntoParrent('Более 5 метров', 'Высота потолка, м')
         except Exception:
             pass
-        
+ 
         if self.parents != 'ARRAY [':
             self.parents = self.parents[:-1] + ']'
         else:
             self.parents = self.parents + ']'
-        
         
         
         price = int("".join(item["Цена"].split()))
@@ -91,13 +96,13 @@ class DBController:
         if item['ЕИ цены'] == '₽ в месяц':
             interval = 'month'
         elif item['ЕИ цены'] == '₽ в год':
-            interval = 'years'
+            interval = 'year'
         elif item['ЕИ цены'] == '₽ в месяц за м²':
             price = price * capacity
             interval = 'month'
         elif item['ЕИ цены'] == '₽ в год за м²':
             price = price * capacity
-            interval = 'years'
+            interval = 'year'
         lat = item["Координаты lat"]
         lng = item["Координаты lng"]
         coords = f'ARRAY [{lat},{lng}]'
@@ -168,18 +173,21 @@ class DBController:
                 '{type_seller}',
                 '{phone_number}',
                 '6359e4c1-f06d-412b-a974-64d65f4fec61'::uuid
-            );'''
+            )
+            ON CONFLICT (avito_id) DO UPDATE SET
+                name = '{name}', 
+                parents = {self.parents}, 
+                price = {price}, 
+                coords = {coords}, 
+                address = '{address}', 
+                files = {image_str}, 
+                interval = '{interval}', 
+                capacity = {capacity}, 
+                is_partible = {is_partible},
+                url = '{url}',
+                phone_number = '{phone_number}'
+            ;'''
         print(query)
         
         self.cursor.execute(query)
         self.conn.commit()
-            # 'Номер телефона'
-            # 'Имя продавца'
-            
-        
-        
-        # value = item[titles[1]]
-        # self.InsertIntoParrent(value, titles[1])
-        # 
-        # print(self.executeAll('structures3'))
-        pass
