@@ -12,7 +12,7 @@ def main():
 
         inspector = Inspector()
 
-        serv = Server(port = 8000)
+        serv = Server(port = 80)
 
         while(True):
             loop = asyncio.get_event_loop()
