@@ -2,7 +2,6 @@ import requests, pickle
 import csv
 import json
 import time
-import sys
 from db import DBController
 
 class Parser():
@@ -14,6 +13,17 @@ class Parser():
         self.log_file = log_file
         self.saveInDb = False
         self.timeout = timeout
+        self.title_csv = ['ID', 'Тип', 'Название','Адрес','URL',
+            'Цена','ЕИ цены','Координаты lat','Координаты lng',
+            'Тип здания', 'Класс здания', 'Общая площадь', 'Объем контейнера',
+            'Этаж', 'Отделка', 'Залог', 
+            'Комиссия, %', 'Категория', 'Парковка', 
+            'Тип парковки', 'Отдельный вход',
+            'Аренда части площади','Высота потолков, м','Включено в стоимость', 'Несколько этажей',
+            'Отопление','Вход', 'Количество парковочных мест',
+            'Отдельный вход', 'Описание','Изображения', 
+            'Дата опубликования', 'Тип продавца','Аренда части площади','Название компании',
+            'Имя продавца','URL продавца', 'Номер телефона']
         
 
     def connectDB(self, dbname, user, password, host, saveInDb=True):
@@ -300,7 +310,7 @@ class Parser():
             return None
 
 
-    def parse(self, categoryId, locationId, title_csv, owner_uuid, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='./assets/ids/ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
+    def parse_avito(self, categoryId, locationId, title_csv, owner_uuid, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='./assets/ids/ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
         print('Start parsing')
         self.raiseSession()
         self.search = search
@@ -359,3 +369,33 @@ class Parser():
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
             time.sleep(self.timeout)
         return answ
+
+
+    def parse_user(self, id_hash, owner_uuid, inspector, parser_uuid):
+        try:
+            if inspector.add_user(id_hash, parser_uuid):
+                try:
+                    res = self.parse_avito(owner_uuid = owner_uuid,  title_csv = self.title_csv, categoryId=42, user_id_hash = id_hash, locationId=621540)
+                    inspector.setResult(res, parser_uuid)
+                except Exception as e:
+                    print(e)
+                    inspector.add_error(parser_uuid)
+                finally:
+                    inspector.remove_user(id_hash, parser_uuid)
+        except Exception as e:
+            print(e)
+
+    
+    def parse_region(self, inspector, search, owner_uuid, categoryId, locationId, parser_uuid):
+        try:
+            if inspector.add_uuid(parser_uuid):
+                try:
+                    res = self.parse_avito(search=search, title_csv = self.title_csv, owner_uuid=owner_uuid, categoryId=categoryId, locationId=locationId)
+                    inspector.setResult(res, parser_uuid)
+                except Exception as e:
+                    print(e)
+                    inspector.add_error(parser_uuid)
+                finally:
+                    inspector.remove_uuid(parser_uuid)
+        except Exception as e:
+            print(e)
