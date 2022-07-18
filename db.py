@@ -41,7 +41,7 @@ class DBController:
                     break
                 
         
-    def saveItems(self, item, owner_uuid):
+    def saveItems(self, item, owner_uuid, table):
         uuid_item = str(uuid.uuid4())
         name = item['Название']
         self.parents = 'ARRAY ['
@@ -109,7 +109,6 @@ class DBController:
         address = item['Адрес']
         url = item['URL']
         avito_id = item['ID']
-        time_load = item['Дата опубликования']
         image_str = ''''{"images": ['''
         for image in item['Изображения']:
             image_str += '"' + item['Изображения'][image] + '",'
@@ -135,7 +134,7 @@ class DBController:
         except Exception:
             phone_number = ''
 
-        query = f'''INSERT INTO public.structures3 (
+        query = f'''INSERT INTO public.{table} (
             id,
             uuid, 
             name, 
@@ -190,3 +189,4 @@ class DBController:
         
         self.cursor.execute(query)
         self.conn.commit()
+        return uuid_item, {'name': name, 'avito_id': avito_id}

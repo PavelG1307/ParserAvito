@@ -9,7 +9,7 @@ class Parser():
 
     def __init__(self, cookie, log_file = 'log.txt', timeout = 1):
         self.key = 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir'
-        self.limit_page = 50
+        self.limit_page = 25
         self.cookie = cookie
         self.log_file = log_file
         self.saveInDb = False
@@ -61,15 +61,14 @@ class Parser():
         f.write(f'Loc: {location}: {message}\n')
 
 
-    def getIDS(self, filename = 'ids.ini'):
+    def getIDS(self, filename = './assets/ids/ids.ini'):
         ids = []
         cicle_stop = True       
         cikle = 0               
         items = []
         url_api_9 = 'https://m.avito.ru/api/11/items'
 
-
-        f = open(filename, mode = 'a')             
+        f = open(filename, mode = 'w')             
         while cicle_stop:
             cikle += 1
             self.params['page'] = cikle
@@ -78,7 +77,7 @@ class Parser():
             res = self.session.get(url_api_9, params=self.params)
             try:
                 res = res.json()
-                g = open('test.json', mode = 'w')
+                g = open('./temp/test.json', mode = 'w')
                 json.dump(res, g)
 
             except json.decoder.JSONDecodeError:
@@ -96,12 +95,16 @@ class Parser():
                     items_page = items_page - 1
 
                 for item in res['result']['items']:
+                    print(item['type'])
                     if item['type'] == 'item':
                         items.append(item)
+                    elif item['type'] == 'groupTitle':
+                        cicle_stop = False
+                        break
                 if items_page < self.limit_page:
                     cicle_stop = False
             for item in items:
-                if item['type'] == 'item':
+                if item['type'] == 'item' or item['type'] == 'xlItem':
                     ad_id = str(item['value']['id'])
                     if not ad_id in ids:
                         ids.append(ad_id)
@@ -164,14 +167,15 @@ class Parser():
         self.fileIds = file
 
 
-    def SaveInfo(self, info, owner_uuid):
+    def SaveInfo(self, info, owner_uuid, table):
         if self.saveInDb:
-            self.db.saveItems(self.json_resp, owner_uuid)
+            return self.db.saveItems(self.json_resp, owner_uuid, table)
         else:
             csvFile = open(self.file, 'a')
             with csvFile:
                 writer = csv.writer(csvFile)
                 writer.writerow(info)
+            return None, None
 
 
     def readIds(self, filename = 'ids.ini'):
@@ -191,7 +195,7 @@ class Parser():
         self.params = {'key': self.key}
         info_js = self.session.get(url_info, params=self.params).json()
         if not 'error' in info_js:
-            f = open('log_req.json', mode = 'w')
+            f = open('./temp/log_req.json', mode = 'w')
             json.dump(info_js, f)
             return info_js
         else:
@@ -296,7 +300,7 @@ class Parser():
             return None
 
 
-    def parse(self, categoryId, locationId, title_csv, owner_uuid, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
+    def parse(self, categoryId, locationId, title_csv, owner_uuid, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='./assets/ids/ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
         print('Start parsing')
         self.raiseSession()
         self.search = search
@@ -305,7 +309,6 @@ class Parser():
         self.params = {
             'categoryId': categoryId,
             'params[536]': 5546,
-            'params[554]': 5727,
             'locationId': locationId,
             'withImagesOnly': withImagesOnly,
             'lastStamp': 1657706700,
@@ -313,6 +316,8 @@ class Parser():
             'limit': self.limit_page,
             'query': search,
             'key': self.key,
+            'localPriority': 'true',
+            'presentationType': 'serp'
         }
 
         if priceMin:
@@ -332,7 +337,7 @@ class Parser():
         if (save_title and not self.saveInDb):
             self.SaveInfo(info = title_csv)
         ids = self.readIds(filename = self.fileIds)
-        
+        answ = {}
         for i in range(len(ids)):
             info = self.getInfo(ids[i].strip())
             self.response = []
@@ -341,9 +346,16 @@ class Parser():
             self.json_resp = {}
             parse_info = self.ParseInfo(info=info)
             if parse_info:
-                self.SaveInfo(self.response, owner_uuid)
+                if user_id_hash:
+                    table = 'structures3'
+                else:
+                    table = 'structures4'
+                uuid, data = self.SaveInfo(self.response, owner_uuid, table)
+                answ[uuid] = data
+                print(answ)
                 print('Добавлено ' + str(i+1) + ' объявлений')
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
             time.sleep(self.timeout)
+        return answ

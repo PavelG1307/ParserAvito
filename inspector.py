@@ -3,14 +3,13 @@ class Inspector():
 
     def __init__(self):
         self.user_hashs = []
+        self.owner_id = []
         self.errors = []
+        self.results = {}
 
 
     def check_user_in_parsing(self, id_hash):
-        if id_hash in self.user_hashs:
-            return True
-        else:
-            return False
+        return id_hash in self.user_hashs
 
 
     def add_user_in_parsing(self, id_hash):
@@ -32,10 +31,7 @@ class Inspector():
 
     
     def check_user_in_error(self, id_hash):
-        if id_hash in self.errors:
-            return True
-        else:
-            return False
+        return id_hash in self.errors
 
 
     def add_user_in_error(self, id_hash):
@@ -52,3 +48,13 @@ class Inspector():
             return True
         else:   
             return False
+
+
+    def setResult(self, data, id_hash):
+        self.results[id_hash] = data
+    
+    def getResult(self, id_hash):
+        if id_hash in self.results.keys():
+            return self.results[id_hash]
+        else:
+            return {}

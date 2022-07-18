@@ -1,6 +1,5 @@
 from parser import Parser
 from inspector import Inspector
-
 import time
 from server import Server
 import asyncio
@@ -18,30 +17,52 @@ title_csv = ['ID', 'Тип', 'Название','Адрес','URL',
             'Дата опубликования', 'Тип продавца','Аренда части площади','Название компании',
             'Имя продавца','URL продавца', 'Номер телефона']
 
-def parse(id_hash, owner_uuid, parser, inspector):
+
+def parse_all(parser, inspector, search, owner_uuid, categoryId, locationId):
     try:
-        if inspector.add_user_in_parsing(id_hash):
+        if inspector.add_user_in_parsing(owner_uuid):
             try:
-                parser.parse(owner_uuid = owner_uuid, categoryId=42, user_id_hash = id_hash, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
+                print(f'location Id {locationId}')
+                res = parser.parse(search=search, title_csv = title_csv, owner_uuid=owner_uuid, categoryId=categoryId, locationId=locationId)
+                # res = {'st' : 'success'}
+                inspector.setResult(res, owner_uuid)
             except Exception as e:
                 print(e)
-                inspector.add_user_in_error(id_hash)
+                inspector.add_user_in_error(owner_uuid)
             finally:
-                inspector.remove_user_in_parsing(id_hash)
+                inspector.remove_user_in_parsing(owner_uuid)
+    except Exception as e:
+        print(e)
+
+
+def parse(id_hash, owner_uuid, parser, inspector):
+    try:
+        if inspector.add_user_in_parsing(owner_uuid):
+            try:
+                res = parser.parse(owner_uuid = owner_uuid,  title_csv = title_csv, categoryId=42, user_id_hash = id_hash, locationId=621540)
+                inspector.setResult(res, owner_uuid)
+            except Exception as e:
+                print(e)
+                inspector.add_user_in_error(owner_uuid)
+            finally:
+                inspector.remove_user_in_parsing(owner_uuid)
     except Exception as e:
         print(e)
 
 
 def main():
-    parser = Parser(cookie=cookie, log_file='log.txt', timeout = 5)
-    parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
-    inspector = Inspector()
-    serv = Server(port = 8000)
-    while(True):
-        loop = asyncio.get_event_loop()
-        loop.run_until_complete(serv.handl(parser, inspector, parse))
-    # parser.parse(search='Склад', categoryId=42, only_info=True, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
+    try:
+        parser = Parser(cookie=cookie, log_file='./temp/log.txt', timeout = 2)
+        parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
+        inspector = Inspector()
+        serv = Server(port = 8080)
+        while(True):
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(serv.handl(parser, inspector, parse, parse_all))
+    except KeyboardInterrupt:
+        serv.server.close()
+        print('\nGoodBye')
 
 
 if __name__ == '__main__':
-    main()
+        main()
