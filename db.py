@@ -41,7 +41,7 @@ class DBController:
                     break
                 
         
-    def saveItems(self, item):
+    def saveItems(self, item, owner_uuid):
         uuid_item = str(uuid.uuid4())
         name = item['Название']
         self.parents = 'ARRAY ['
@@ -172,7 +172,7 @@ class DBController:
                 '{name_seller}',
                 '{type_seller}',
                 '{phone_number}',
-                '6359e4c1-f06d-412b-a974-64d65f4fec61'::uuid
+                '{owner_uuid}'::uuid
             )
             ON CONFLICT (avito_id) DO UPDATE SET
                 name = '{name}', 
@@ -187,7 +187,6 @@ class DBController:
                 url = '{url}',
                 phone_number = '{phone_number}'
             ;'''
-        print(query)
         
         self.cursor.execute(query)
         self.conn.commit()

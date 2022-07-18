@@ -1,2 +1,43 @@
 Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 0 объявлении, id: 1909088137
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 2 объявлении, id: 2357782598
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 3 объявлении, id: 1706437368
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 4 объявлении, id: 2261412123
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 5 объявлении, id: 1909526448
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 6 объявлении, id: 1781694621
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!

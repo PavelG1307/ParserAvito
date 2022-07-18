@@ -2,6 +2,8 @@ from logging import exception
 from pydoc import pager
 import socket
 import urllib.parse
+import asyncio
+from threading import Thread
 
 class Server():
 
@@ -38,3 +40,56 @@ class Server():
                 'params': {},
                 'endpoint': ''
             }
+    
+
+    async def handle_get_endpoints(self, endpoint, params, parser, inspector, callback):
+        try:
+            if endpoint == '/api/parse':
+                if not inspector.check_user_in_parsing(params["user"]):
+                    print(f'Parsing user {params["user"]}')
+                    Thread(target=callback, args = (params["user"],params["owner_uuid"],parser,inspector,)).start()
+                    await asyncio.sleep(0.5)
+                    if inspector.check_user_in_parsing(params["user"]) and not inspector.check_user_in_error(params["user"]):
+                        return {'res': {"status": "ok"}, 'code': 200}
+                    else:
+                        return {'res': {"status": "Bad Request"}, 'code': 400}
+                else:
+                    print('already')
+                    return {'res': {"status": "Bad Request"}, 'code': 400}
+
+            elif endpoint == '/api/parse/check':
+                if inspector.check_user_in_parsing(params["user"]):
+                    res = {"status": "In progress"}
+                    code = 200
+                elif not inspector.check_user_in_error(params["user"]):
+                    res = {"status": "Done"}
+                    code = 200
+                else:
+                    res = {"status": "Bad request"}
+                    code = 400
+                return {'res': res, 'code': code}
+            
+            elif endpoint == '/api/parse/checkall':
+                pass
+            
+            else: 
+                return {'res': {'status': 'Bad request'}, 'code': 400}
+ 
+        except Exception:
+            return {'res': {"status": "Bad request"}, 'code': 400}
+
+
+    async def handl(self, parser, inspector, callback):
+        client_socket, address = self.server.accept()
+        data = client_socket.recv(1024).decode('utf-8')
+        data_p = self.parse_rec(data)
+        if data_p['type'] == 'GET':
+            r = await self.handle_get_endpoints(data_p['endpoint'], data_p['params'], parser, inspector, callback)
+            print(f'res{r}')
+            if r['code'] == 500:
+                answ = f'HTTP/1.1 500 Internal Server Error\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+            elif r['code'] == 400:
+                answ = f'HTTP/1.1 400 Bad Request\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+            else:
+                answ = f'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
+            client_socket.send(answ)

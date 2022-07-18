@@ -87,7 +87,8 @@ class Parser():
 
             if res['status'] != 'ok':
                     print(res)
-                    sys.exit(1)
+                    raise('error in getIds')
+
             if res['status'] == 'ok':
                 items_page = int(len(res['result']['items']))
 
@@ -140,7 +141,7 @@ class Parser():
 
             if res['status'] != 'ok':
                     print(res)
-                    sys.exit(1)
+                    raise('api error')
             if res['status'] == 'ok':
                 items_page = int(len(res['result']['items']))
 
@@ -163,9 +164,9 @@ class Parser():
         self.fileIds = file
 
 
-    def SaveInfo(self, info):
+    def SaveInfo(self, info, owner_uuid):
         if self.saveInDb:
-            self.db.saveItems(self.json_resp)
+            self.db.saveItems(self.json_resp, owner_uuid)
         else:
             csvFile = open(self.file, 'a')
             with csvFile:
@@ -187,9 +188,7 @@ class Parser():
 
     def getInfo(self, id):
         url_info = f'https://m.avito.ru/api/18/items/{id}'
-        self.params = {
-            'key': self.key
-        }
+        self.params = {'key': self.key}
         info_js = self.session.get(url_info, params=self.params).json()
         if not 'error' in info_js:
             f = open('log_req.json', mode = 'w')
@@ -197,6 +196,7 @@ class Parser():
             return info_js
         else:
             print(info_js)
+            raise('error')
 
 
     def insertToResp(self, data, title):
@@ -296,7 +296,8 @@ class Parser():
             return None
 
 
-    def parse(self, search, categoryId, locationId, title_csv, user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
+    def parse(self, categoryId, locationId, title_csv, owner_uuid, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='ids.ini', file = 'data.csv', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None,priceMax=None):
+        print('Start parsing')
         self.raiseSession()
         self.search = search
         self.categoryId = categoryId
@@ -340,7 +341,7 @@ class Parser():
             self.json_resp = {}
             parse_info = self.ParseInfo(info=info)
             if parse_info:
-                self.SaveInfo(self.response)
+                self.SaveInfo(self.response, owner_uuid)
                 print('Добавлено ' + str(i+1) + ' объявлений')
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')

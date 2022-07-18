@@ -1,5 +1,6 @@
 from parser import Parser
-from threading import Thread
+from inspector import Inspector
+
 import time
 from server import Server
 import asyncio
@@ -17,78 +18,30 @@ title_csv = ['ID', 'Тип', 'Название','Адрес','URL',
             'Дата опубликования', 'Тип продавца','Аренда части площади','Название компании',
             'Имя продавца','URL продавца', 'Номер телефона']
 
-id_user_parsing = []
-error_user_parsing = []
-
-def parse(id_hash, parser):
-    if id_hash not in id_user_parsing:
-        id_user_parsing.append(id_hash)
-        if id_hash in error_user_parsing:
-            error_user_parsing.remove(id_hash)
-        try:
-            parser.parse(search='Склад', categoryId=42, user_id_hash = id_hash, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
-        except Exception as e:
-            print(e)
-            error_user_parsing.append(id_hash)
-        finally:
-            id_user_parsing.remove(id_hash)
-
-async def handle_get_endpoints(endpoint, params, parser):
+def parse(id_hash, owner_uuid, parser, inspector):
     try:
-        if endpoint == '/api/parse':
-            print(f'Parsing user {params["user"]}')
-            Thread(target=parse, args = (params["user"],parser,)).start()
-            await asyncio.sleep(0.5)
-            if params["user"] in id_user_parsing and params["user"] not in error_user_parsing:
-                return {'res': {"status": "ok"}, 'code': 200}
-            else:
-                return {'res': {"status": "Bad Request"}, 'code': 400}
-
-        elif endpoint == '/api/parse/check':
-            if params["user"] in id_user_parsing:
-                res = {
-                    "status": "In progress"
-                }
-                code = 200
-            elif params["user"] not in error_user_parsing:
-                res = {"status": "Done"}
-                code = 200
-            else:
-                res = {"status": "Bad request"}
-                code = 400
-            return {'res': res, 'code': code}
-        
-        else: 
-            return {'res': {'status': 'Bad request'}, 'code': 400}
- 
-    except Exception:
-        return {'res': {"status": "Bad request"}, 'code': 400}
-
-
-async def handl(serv, parser):
-    client_socket, address = serv.server.accept()
-    data = client_socket.recv(1024).decode('utf-8')
-    data_p = serv.parse_rec(data)
-    if data_p['type'] == 'GET':
-        r = await handle_get_endpoints(data_p['endpoint'], data_p['params'], parser)
-        print(f'res{r}')
-        if r['code'] == 500:
-            answ = f'HTTP/1.1 500 Internal Server Error\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
-        elif r['code'] == 400:
-            answ = f'HTTP/1.1 400 Bad Request\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
-        else:
-            answ = f'HTTP/1.1 200 OK\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{r["res"]}'.encode('utf-8')
-        client_socket.send(answ)
+        if inspector.add_user_in_parsing(id_hash):
+            try:
+                parser.parse(owner_uuid = owner_uuid, categoryId=42, user_id_hash = id_hash, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
+            except Exception as e:
+                print(e)
+                inspector.add_user_in_error(id_hash)
+            finally:
+                inspector.remove_user_in_parsing(id_hash)
+    except Exception as e:
+        print(e)
 
 
 def main():
     parser = Parser(cookie=cookie, log_file='log.txt', timeout = 5)
     parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
-    
+    inspector = Inspector()
     serv = Server(port = 8000)
     while(True):
         loop = asyncio.get_event_loop()
-        loop.run_until_complete(handl(serv, parser))
+        loop.run_until_complete(serv.handl(parser, inspector, parse))
     # parser.parse(search='Склад', categoryId=42, only_info=True, locationId=621540, title_csv=title_csv, file = 'Moscow.csv', sort = 'priceDesc', withImagesOnly = 'false')
+
+
 if __name__ == '__main__':
     main()
