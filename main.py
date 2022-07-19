@@ -7,7 +7,7 @@ cookie = 'u=2ospkoq5.q3xuox.7fs4jiv87n4; buyer_local_priority_v2=0; _ym_uid=1623
 
 def main():
     try:
-        parser = Parser(cookie=cookie, log_file='./temp/log.txt', timeout = 2)
+        parser = Parser(cookie=cookie, timeout = 2)
         parser.connectDB(dbname='default', user='master', password='6sd1v838', host='194.177.21.255')
 
         inspector = Inspector()
