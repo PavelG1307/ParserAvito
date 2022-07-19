@@ -14,7 +14,7 @@ class Server():
 
     async def handle_get_endpoints(self, endpoint, params, inspector, parser_user, parser_region):
         try:
-            if endpoint == '/api/parse/user':
+            if endpoint == '/api/avito/user':
                 if not inspector.check_user(params["user"]):
                     parser_uuid = str(uuid.uuid4())
                     Thread(target=parser_user,args = (params["user"],params["owner_uuid"], inspector,parser_uuid)).start()
@@ -27,7 +27,7 @@ class Server():
                     return {'res': {"status": "Bad Request"}, 'code': 400}
 
 
-            elif endpoint == '/api/parse/check':
+            elif endpoint == '/api/avito/check':
                 parser_uuid = params["uuid"]
                 if inspector.check_uuid(parser_uuid):
                     res = {"status": "In progress"}
@@ -40,7 +40,7 @@ class Server():
                 return {'res': res, 'code': code}
 
 
-            elif endpoint == '/api/parse/region':
+            elif endpoint == '/api/avito/region':
                 parser_uuid = str(uuid.uuid4())
                 print(parser_uuid)
                 if 'categoryId' in params.keys():
