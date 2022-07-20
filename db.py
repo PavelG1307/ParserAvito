@@ -152,7 +152,7 @@ class DBController:
         
         hash_seller = item['Hash продавца']
         name_seller = item['Название компании']
-        # type_seller = item['Тип продавца']
+        description = item['Описание']
 
         if hash_seller in self.users.keys():
             owner_uuid = self.users[hash_seller]
@@ -180,7 +180,8 @@ class DBController:
             hash_seller, 
             url,
             phone_number,
-            owner_uuid
+            owner_uuid,
+            description
             ) VALUES (
                 DEFAULT,
                 '{uuid_item}'::uuid,
@@ -197,7 +198,8 @@ class DBController:
                 '{hash_seller}',
                 '{url}',
                 '{phone_number}',
-                '{owner_uuid}'::uuid
+                '{owner_uuid}'::uuid,
+                '{description}'
             )
             ON CONFLICT (avito_id) DO UPDATE SET
                 name = '{name}', 
@@ -210,7 +212,8 @@ class DBController:
                 capacity = {capacity}, 
                 is_partible = {is_partible},
                 url = '{url}',
-                phone_number = '{phone_number}'
+                phone_number = '{phone_number}',
+                description = '{description}'
             ;'''
         
         self.cursor.execute(query)

@@ -1,6 +1,6 @@
-import requests
 import json
 import time
+from session import Session
 
 class Avito():
 
@@ -16,22 +16,25 @@ class Avito():
 
     def raiseSession(self):
         try:
-            s = requests.Session()
+            s = Session()
             headers = {
+                    'Cookie': 'v=1658351465',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'Connection': 'keep-alive',
                     'authority': 'm.avito.ru',
-                    'pragma': 'no-cache',
-                    'cache-control': 'no-cache',
-                    'upgrade-insecure-requests': '1',
-                    'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Mobile Safari/537.36',
-                    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-                    'sec-fetch-site': 'none',
-                    'sec-fetch-mode': 'navigate',
-                    'sec-fetch-user': '?1',
-                    'sec-fetch-dest': 'document',
+                    'accept': 'application/json, text/plain, */*',
                     'accept-language': 'ru-RU,ru;q=0.9',
-                    'cookie': self.cookie,
+                    'content-type': 'application/json;charset=utf-8',
+                    'referer': 'https://m.avito.ru/items/search?locationId=637640&localPriority=0&geoCoords=55.755814%2C37.617635&presentationType=serp',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-origin',
+                    'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+                    'x-laas-timezone': 'Europe/Moscow',
+                    'cookie': self.cookie
                     }
-            s.headers.update(headers)
+            s.headers(headers)
+            print(s)
             self.session = s
             return True
         except Exception as e:
@@ -260,7 +263,7 @@ class Avito():
             try: 
                 url_get_phone = 'https://m.avito.ru/api/1/items/' + str(info['firebaseParams']['itemID']) + '/phone'
                 phone = self.session.get(url_get_phone, params=self.params).json()
-                phone_number = requests.utils.unquote(phone['result']['action']['uri'].split('number=')[1])
+                phone_number = self.session.unquote(phone['result']['action']['uri'].split('number=')[1])
                 self.insertToResp(phone_number, 'Номер телефона')
             except Exception as e:
                 print(e)

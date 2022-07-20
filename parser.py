@@ -1,5 +1,5 @@
 
-from avito import Avito
+from modules.avito import Avito
 from db import DBController
 import csv
 
