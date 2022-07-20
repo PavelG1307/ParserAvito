@@ -6,7 +6,7 @@
 - asyncio
 - urllib
 
-`pip3 install  --upgrade --force-reinstall requests uuid asyncio urllib3`
+`pip3 install  --upgrade --force-reinstall requests uuid asyncio urllib3 psycopg2.binary`
 
 ------------
 
