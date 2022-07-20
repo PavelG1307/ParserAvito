@@ -19,7 +19,7 @@ class Parser():
             'Отопление','Вход', 'Количество парковочных мест',
             'Отдельный вход', 'Описание','Изображения', 
             'Дата опубликования', 'Тип продавца','Аренда части площади','Название компании',
-            'Имя продавца','URL продавца', 'Номер телефона']
+            'Имя продавца','URL продавца', 'Номер телефона', 'Hash продавца']
 
 
     def connectDB(self, dbname, user, password, host, saveInDb=True):
@@ -32,9 +32,9 @@ class Parser():
             raise 'Error DB'
 
 
-    def save_info(self, info, owner_uuid, table, file = './assets/data.csv'):
+    def save_info(self, info, table, file = './assets/data.csv'):
         if self.saveInDb:
-            return self.db.saveItems(info, owner_uuid, table)
+            return self.db.saveItems(info, table)
         else:
             csvFile = open(file, 'a')
             with csvFile:
@@ -43,15 +43,15 @@ class Parser():
             return None, None
 
 
-    def parse_user(self, id_hash, owner_uuid, inspector, parser_uuid):
+    def parse_user(self, id_hash, inspector, parser_uuid):
         try:
             if inspector.add_user(id_hash, parser_uuid):
                 try:
                     parser_avito = Avito(cookie = self.cookie, log_file = './temp/log.txt', timeout = self.timeout, columns = self.columns)
-                    res = parser_avito.parse(columns = self.columns, categoryId=42, user_id_hash = id_hash, locationId=621540)
+                    res = parser_avito.parse(columns = self.columns, categoryId=42, user_id_hash = id_hash, locationId=621540, callback_save = self.save_info)
                     response = {}
                     for i in range(len(res)):
-                        uuid, data = self.save_info(res[i], owner_uuid, 'structures3')
+                        uuid, data = self.save_info(res[i], 'structures3')
                         response[uuid] = data
                         print('Добавленно ' + str(i+1) + ' объявлений')
                     inspector.setResult(response, parser_uuid)
@@ -64,17 +64,17 @@ class Parser():
             print(e)
 
     
-    def parse_region(self, inspector, search, owner_uuid, categoryId, locationId, parser_uuid):
+    def parse_region(self, inspector, search, categoryId, locationId, parser_uuid):
         try:
             if inspector.add_uuid(parser_uuid):
                 try:
                     parser_avito = Avito(cookie = self.cookie, log_file = './temp/log.txt', timeout = self.timeout, columns = self.columns)
-                    res = parser_avito.parse(search=search, columns = self.columns, categoryId=categoryId, locationId=locationId)
+                    res = parser_avito.parse(search=search, columns = self.columns, categoryId=categoryId, locationId=locationId, callback_save = self.save_info)
                     response = {}
                     for i in range(len(res)):
-                        uuid, data = self.save_info(res[i], owner_uuid, 'structures3')
+                        uuid, data = self.save_info(res[i], 'structures3')
                         response[uuid] = data
-                        print('Полученно ' + str(i+1) + ' объявлений')
+                        print('Добавленно ' + str(i+1) + ' объявлений')
                     inspector.setResult(response, parser_uuid)
                 except Exception as e:
                     print(e)

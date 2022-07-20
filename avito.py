@@ -76,7 +76,6 @@ class Avito():
                     items_page = items_page - 1
 
                 for item in res['result']['items']:
-                    print(item['type'])
                     if item['type'] == 'item':
                         items.append(item)
                     elif item['type'] == 'groupTitle':
@@ -257,7 +256,7 @@ class Avito():
                 pass
 
             user_hash = info['seller']['userHash']
-            self.insertToResp(f'https://www.avito.ru/user/{user_hash}/profile', 'URL продавца')
+            self.insertToResp(user_hash, 'Hash продавца')
             try: 
                 url_get_phone = 'https://m.avito.ru/api/1/items/' + str(info['firebaseParams']['itemID']) + '/phone'
                 phone = self.session.get(url_get_phone, params=self.params).json()
@@ -273,7 +272,7 @@ class Avito():
             return None
 
 
-    def parse(self, categoryId, locationId, columns, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='./assets/ids/ids.ini', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None, priceMax=None):
+    def parse(self, categoryId, locationId, columns, callback_save, search = 'Склад', user_id_hash = None, save_title=True, only_ids=False, only_info=False, fileIds='./assets/ids/ids.ini', sort = 'priceDesc', withImagesOnly = 'false', priceMin=None, priceMax=None):
         print('Start parsing')
         self.raiseSession()
         self.search = search
@@ -317,6 +316,8 @@ class Avito():
                 self.response.append('')
             self.json_resp = {}
             parse_info = self.ParseInfo(info=info)
+
+            callback_save(self.json_resp, 'structures3')
 
             if parse_info:
                 self.ads.append(self.json_resp)

@@ -11,6 +11,12 @@ class DBController:
         self.structures_table = 'structures3'
         self.getStructures()
 
+        self.conn_auth = psycopg2.connect(dbname='auth', user=user, 
+                        password=password, host=host)
+        self.cursor_auth = self.conn_auth.cursor()
+        self.auth_table = 'users2'
+        self.getUsers('avito')
+
 
     def executeAll(self, tablename):
         self.cursor.execute(f'SELECT * FROM {tablename}')
@@ -26,7 +32,26 @@ class DBController:
             self.structures[self.resp[i][0]] = self.resp[i][1]
             self.uuid_i[self.resp[i][1]] = self.resp[i][0]
 
-     
+
+    def getUsers(self, platform = 'avito'):
+        self.cursor_auth.execute(f'SELECT uuid, datasync  FROM {self.auth_table}')
+        users = self.cursor_auth.fetchall()
+        self.users = {}
+        for user in users:
+            if platform in user[1].keys():
+                self.users[user[1][platform]['id_hash']] = user[0]
+        print(self.users)
+
+    def addUser(self, hash, name):
+        hash = '''{"avito": {"id_hash": "''' + hash + '''"}}'''
+        query = f"INSERT INTO {self.auth_table} (id, first_name, datasync) VALUES (DEFAULT, '{name}', '{hash}') RETURNING uuid"
+        print(query)
+        self.cursor_auth.execute(query)
+        uuid = self.cursor_auth.fetchone()[0]
+        self.conn_auth.commit()
+        self.getUsers('avito')
+        return uuid
+
     def close(self):
         self.cursor.close()
         self.onn.close()
@@ -40,8 +65,8 @@ class DBController:
                     self.parents += "'" + item[1] + "'::uuid,"
                     break
                 
-        
-    def saveItems(self, item, owner_uuid, table):
+    
+    def saveItems(self, item, table):
         uuid_item = str(uuid.uuid4())
         name = item['Название']
         self.parents = 'ARRAY ['
@@ -125,9 +150,14 @@ class DBController:
         except Exception:
             is_partible = 'false'
         
-        url_seller = item['URL продавца']
+        hash_seller = item['Hash продавца']
         name_seller = item['Название компании']
-        type_seller = item['Тип продавца']
+        # type_seller = item['Тип продавца']
+
+        if hash_seller in self.users.keys():
+            owner_uuid = self.users[hash_seller]
+        else:
+            owner_uuid = self.addUser(hash_seller, name_seller)
 
         try:
             phone_number = item['Номер телефона']
@@ -146,11 +176,9 @@ class DBController:
             interval, 
             capacity, 
             is_partible, 
-            avito_id, 
-            url, 
-            url_seller, 
-            name_seller, 
-            type_seller, 
+            avito_id,
+            hash_seller, 
+            url,
             phone_number,
             owner_uuid
             ) VALUES (
@@ -166,10 +194,8 @@ class DBController:
                 {capacity},
                 {is_partible},
                 {avito_id},
+                '{hash_seller}',
                 '{url}',
-                '{url_seller}',
-                '{name_seller}',
-                '{type_seller}',
                 '{phone_number}',
                 '{owner_uuid}'::uuid
             )
