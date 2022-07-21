@@ -40,12 +40,10 @@ class DBController:
         for user in users:
             if platform in user[1].keys():
                 self.users[user[1][platform]['id_hash']] = user[0]
-        print(self.users)
 
     def addUser(self, hash, name):
         hash = '''{"avito": {"id_hash": "''' + hash + '''"}}'''
         query = f"INSERT INTO {self.auth_table} (id, first_name, datasync) VALUES (DEFAULT, '{name}', '{hash}') RETURNING uuid"
-        print(query)
         self.cursor_auth.execute(query)
         uuid = self.cursor_auth.fetchone()[0]
         self.conn_auth.commit()

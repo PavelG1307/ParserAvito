@@ -1,73 +1,191 @@
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
-Loc: parseMessage: Hash продавца не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
 Loc: parseMessage: Планировка не учтен!
 Loc: parseMessage: Тип аренды не учтен!
 Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
 Loc: parseMessage: Планировка не учтен!
 Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
 Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 373 объявлении, id: 2001498542
 Loc: parseMessage: Удаленность от дороги не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Минимальный срок аренды не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Планировка не учтен!
-Loc: parseMessage: Тип аренды не учтен!
-Loc: parseMessage: Арендные каникулы не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Удаленность от дороги не учтен!
-Loc: parseMessage: Hash продавца не учтен!
-Loc: parseMessage: Название компании не учтен!
-Loc: parseMessage: Номер телефона не учтен!
-Loc: parseMessage: Название компании не учтен!
-Loc: parseMessage: Имя продавца не учтен!
-Loc: parseMessage: Номер телефона не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
 Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Планировка не учтен!
 Loc: parseMessage: Тип аренды не учтен!
 Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1023 объявлении, id: 2378565736
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 1225 объявлении, id: 2278396751
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 1465 объявлении, id: 2090845908
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
 Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!

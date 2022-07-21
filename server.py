@@ -10,6 +10,7 @@ class Server():
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server.bind((host, port))
         self.server.listen(4)
+        print('Start server!')
     
 
     async def handle_get_endpoints(self, endpoint, params, inspector, parser_user, parser_region):

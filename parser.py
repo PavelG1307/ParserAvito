@@ -49,12 +49,8 @@ class Parser():
                 try:
                     parser_avito = Avito(cookie = self.cookie, log_file = './temp/log.txt', timeout = self.timeout, columns = self.columns)
                     res = parser_avito.parse(columns = self.columns, categoryId=42, user_id_hash = id_hash, locationId=621540, callback_save = self.save_info)
-                    response = {}
-                    for i in range(len(res)):
-                        uuid, data = self.save_info(res[i], 'structures3')
-                        response[uuid] = data
-                        print('Добавленно ' + str(i+1) + ' объявлений')
-                    inspector.setResult(response, parser_uuid)
+                    inspector.setResult(res, parser_uuid)
+                    print('Парсинг завершен успешно!')
                 except Exception as e:
                     print(e)
                     inspector.add_error(parser_uuid)
@@ -70,12 +66,8 @@ class Parser():
                 try:
                     parser_avito = Avito(cookie = self.cookie, log_file = './temp/log.txt', timeout = self.timeout, columns = self.columns)
                     res = parser_avito.parse(search=search, columns = self.columns, categoryId=categoryId, locationId=locationId, callback_save = self.save_info)
-                    response = {}
-                    for i in range(len(res)):
-                        uuid, data = self.save_info(res[i], 'structures3')
-                        response[uuid] = data
-                        print('Добавленно ' + str(i+1) + ' объявлений')
-                    inspector.setResult(response, parser_uuid)
+                    inspector.setResult(res, parser_uuid)
+                    print('Синхронизация успешно завершена')
                 except Exception as e:
                     print(e)
                     inspector.add_error(parser_uuid)
