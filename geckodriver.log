@@ -1,0 +1,228 @@
+1658576507210	geckodriver	INFO	Listening on 127.0.0.1:34707
+1658576642418	geckodriver	INFO	Listening on 127.0.0.1:52447
+1658576642424	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "38473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNo6RaM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658576643186	Marionette	INFO	Marionette enabled
+1658576643195	Marionette	INFO	Listening on port 37545
+WebDriver BiDi listening on ws://localhost:38473
+Read port: 37545
+1658576643337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNo6RaM/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38473/devtools/browser/1508a7aa-ed05-411f-8a8b-cd69588b0973
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1658576714877	geckodriver	INFO	Listening on 127.0.0.1:33134
+1658576715382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "38750" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQVaN5C"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658576715880	Marionette	INFO	Marionette enabled
+1658576715886	Marionette	INFO	Listening on port 35224
+WebDriver BiDi listening on ws://localhost:38750
+Read port: 35224
+1658576716097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQVaN5C/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38750/devtools/browser/362de118-1bd6-4512-89ad-b3f20e88b3af
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+1658576736028	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1658576840672	geckodriver	INFO	Listening on 127.0.0.1:35856
+1658576841177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "52007" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHAoRXN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658576841632	Marionette	INFO	Marionette enabled
+1658576841638	Marionette	INFO	Listening on port 42711
+WebDriver BiDi listening on ws://localhost:52007
+Read port: 42711
+1658576841790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHAoRXN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52007/devtools/browser/95b11581-ebff-49e7-a624-bd6f94ad5050
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1658576949174	geckodriver	INFO	Listening on 127.0.0.1:44551
+1658576949680	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "43466" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileac6lxO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658576950081	Marionette	INFO	Marionette enabled
+1658576950087	Marionette	INFO	Listening on port 36963
+WebDriver BiDi listening on ws://localhost:43466
+Read port: 36963
+1658576950243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileac6lxO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:43466/devtools/browser/3b02c01f-6b9d-4453-bb45-a94709775131
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1658577140592	geckodriver	INFO	Listening on 127.0.0.1:57063
+1658577141098	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "58932" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSxHXTn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658577141580	Marionette	INFO	Marionette enabled
+1658577141586	Marionette	INFO	Listening on port 43432
+WebDriver BiDi listening on ws://localhost:58932
+Read port: 43432
+1658577141767	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSxHXTn/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58932/devtools/browser/2df51031-aaae-427e-8f87-bfffa902d2eb
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1658594581180	geckodriver	INFO	Listening on 127.0.0.1:58917
+1658594581687	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "47876" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDqr44C"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658594582559	Marionette	INFO	Marionette enabled
+1658594582566	Marionette	INFO	Listening on port 35522
+WebDriver BiDi listening on ws://localhost:47876
+Read port: 35522
+1658594582734	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDqr44C/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47876/devtools/browser/46063869-1575-4b9a-9459-5be388831533
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 159: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)

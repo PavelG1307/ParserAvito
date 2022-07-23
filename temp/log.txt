@@ -2196,3 +2196,12 @@ Loc: parseMessage: Арендные каникулы не учтен!
 Loc: parseMessage: Error 'NoneType' object is not subscriptable
 Loc: main: Ошибка на 3585 объявлении, id: 2473958726
 Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
