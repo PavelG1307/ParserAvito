@@ -23,7 +23,7 @@ class Session():
 
     def restart(self):
         self.driver.close()
-        self.driver = webdriver.Firefox(executable_path='/Users/pavel/Desktop/Программирование/parser_avito/geckodriver', options=self.options)
+        self.driver = webdriver.Firefox(options=self.options)
         self.driver.get('https://m.avito.ru')
         time.sleep(3)
 
