@@ -62,7 +62,6 @@ class Avito():
 
                 if res['status'] != 'ok':
                         print(res)
-                        raise('error in getIds')
 
                 if res['status'] == 'ok':
                     items_page = int(len(res['result']['items']))
