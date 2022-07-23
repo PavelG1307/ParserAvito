@@ -34,7 +34,7 @@ class Session():
         if params:
             url = url + '?' + urllib.parse.urlencode(params)
         self.driver.get(url)
-        time.sleep(2)
+        time.sleep(1)
         content = self.driver.page_source
         source = BeautifulSoup(content, 'lxml').find("pre").text
         req = json.loads(source)
