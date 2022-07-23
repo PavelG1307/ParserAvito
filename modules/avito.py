@@ -331,7 +331,7 @@ class Avito():
                 parse_info = None
 
             if parse_info:
-                uuid, data = callback_save(self.json_resp, 'structures3')
+                uuid, data = callback_save(self.json_resp, 'structures4')
                 self.ads[uuid] = data
                 print('Полученно ' + str(i+1) + ' объявлений')
             else:

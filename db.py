@@ -8,7 +8,7 @@ class DBController:
         self.conn = psycopg2.connect(dbname=dbname, user=user, 
                         password=password, host=host)
         self.cursor = self.conn.cursor()
-        self.structures_table = 'structures3'
+        self.structures_table = 'structures4'
         self.getStructures()
 
         self.conn_auth = psycopg2.connect(dbname='auth', user=user, 

@@ -13,11 +13,10 @@ class Session():
     def __init__(self, timeout = 2):
         self.timeout = timeout
         self.options = Options()
-        self.options.binary_location = '/Users/pavel/Desktop/Программирование/parser_avito/Firefox.app/Contents/MacOS/firefox'
         self.options.set_preference('devtools.jsonview.enabled', False)
         self.options.headless = True
         self.options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36")
-        self.driver = webdriver.Firefox(executable_path='/Users/pavel/Desktop/Программирование/parser_avito/geckodriver', options=self.options)
+        self.driver = webdriver.Firefox(options=self.options)
         self.driver.get('https://m.avito.ru')
         time.sleep(3)
 
