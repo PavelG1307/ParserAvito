@@ -38,3 +38,12 @@ def get_response(data, code):
     else:
         response = f'HTTP/1.1 400 Bad Request\r\nContent-Type: application/json; charset=utf-8\r\n\r\n{data}'.encode('utf-8')
     return response
+
+def add_speciality_symbol(text):
+    while(True):
+        if "'" in text:
+                i = text.find("'")
+                text = text[:i] + text[i+1:]
+        else:
+            break
+    return text

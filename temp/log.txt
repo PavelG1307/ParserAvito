@@ -1,0 +1,2198 @@
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 373 объявлении, id: 2001498542
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1023 объявлении, id: 2378565736
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 1225 объявлении, id: 2278396751
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 1465 объявлении, id: 2090845908
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 38 объявлении, id: 2434680514
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 71 объявлении, id: 1569330279
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 299 объявлении, id: 2442483218
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 37 объявлении, id: 2108825124
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 39 объявлении, id: 2193543373
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 52 объявлении, id: 2448997525
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 165 объявлении, id: 2449541868
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 226 объявлении, id: 2449065841
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2 объявлении, id: 2492505299
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2 объявлении, id: 2492505299
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2 объявлении, id: 2492505299
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2 объявлении, id: 2492505299
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 27 объявлении, id: 1788570414
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 59 объявлении, id: 2468277849
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 88 объявлении, id: 2150979287
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'description'
+Loc: main: Ошибка на 0 объявлении, id: 
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'description'
+Loc: main: Ошибка на 0 объявлении, id: 
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'description'
+Loc: main: Ошибка на 0 объявлении, id: 
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'description'
+Loc: main: Ошибка на 0 объявлении, id: 
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'description'
+Loc: main: Ошибка на 0 объявлении, id: 
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 48 объявлении, id: 2331695011
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 151 объявлении, id: 2266938047
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 176 объявлении, id: 2459491983
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 187 объявлении, id: 2426945370
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 236 объявлении, id: 2267789678
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 249 объявлении, id: 2417487814
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 253 объявлении, id: 2267596029
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 284 объявлении, id: 2331641171
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 293 объявлении, id: 2326895841
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 355 объявлении, id: 2426923215
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 360 объявлении, id: 2427152373
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 401 объявлении, id: 2427773139
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 407 объявлении, id: 2427060830
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 442 объявлении, id: 2431388298
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 445 объявлении, id: 2267560401
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 515 объявлении, id: 2427820509
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 521 объявлении, id: 2385350635
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 523 объявлении, id: 2427425469
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 534 объявлении, id: 2397541814
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 616 объявлении, id: 2420986397
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 655 объявлении, id: 2427570489
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 657 объявлении, id: 2267774825
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 665 объявлении, id: 2266971180
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 685 объявлении, id: 2427225940
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 693 объявлении, id: 2125122213
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 764 объявлении, id: 2427472307
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 813 объявлении, id: 2427697133
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 926 объявлении, id: 2069318325
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 950 объявлении, id: 2427808191
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 963 объявлении, id: 1595557354
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1080 объявлении, id: 2426945631
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1140 объявлении, id: 2474761977
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1155 объявлении, id: 2426915371
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1184 объявлении, id: 2421653090
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1194 объявлении, id: 2427091307
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1200 объявлении, id: 2389033847
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1207 объявлении, id: 2427253105
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1252 объявлении, id: 2292925692
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1265 объявлении, id: 2059604338
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1402 объявлении, id: 2267693673
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1418 объявлении, id: 2474704989
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1450 объявлении, id: 2395713294
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1480 объявлении, id: 2463906388
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1482 объявлении, id: 2427320905
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 107 объявлении, id: 2453890124
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 130 объявлении, id: 2427827735
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 164 объявлении, id: 2454534195
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 187 объявлении, id: 2474470610
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 235 объявлении, id: 2420951202
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 237 объявлении, id: 2485464361
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 291 объявлении, id: 2420885141
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 295 объявлении, id: 2421357246
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 298 объявлении, id: 2239716939
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 441 объявлении, id: 2399038407
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 455 объявлении, id: 2451534638
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 467 объявлении, id: 2362477446
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 469 объявлении, id: 2457919961
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 479 объявлении, id: 515754748
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 507 объявлении, id: 2271030757
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 525 объявлении, id: 2476105010
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 547 объявлении, id: 2464811585
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 562 объявлении, id: 2484891085
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 621 объявлении, id: 2468585577
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 625 объявлении, id: 2381612533
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 629 объявлении, id: 2464570818
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 646 объявлении, id: 2412944235
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 677 объявлении, id: 2388262008
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 679 объявлении, id: 1845589162
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 722 объявлении, id: 2368462070
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 753 объявлении, id: 905328179
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 802 объявлении, id: 2047825427
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 817 объявлении, id: 2464001548
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 861 объявлении, id: 2344230921
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 895 объявлении, id: 2440685433
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 979 объявлении, id: 1995607509
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 991 объявлении, id: 2242700310
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1030 объявлении, id: 2214959229
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1031 объявлении, id: 2412143932
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1032 объявлении, id: 1944834709
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1045 объявлении, id: 2492238117
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1074 объявлении, id: 1894563659
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1114 объявлении, id: 2458459630
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1162 объявлении, id: 2370041286
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1173 объявлении, id: 2463059761
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1189 объявлении, id: 2406941703
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1194 объявлении, id: 1899301811
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1205 объявлении, id: 2242877786
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1227 объявлении, id: 1874893109
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1240 объявлении, id: 2026829077
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1254 объявлении, id: 2407222049
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1265 объявлении, id: 2389874736
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1270 объявлении, id: 2334547838
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1307 объявлении, id: 2013390793
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1372 объявлении, id: 2367525784
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1443 объявлении, id: 2443909381
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1507 объявлении, id: 1815988916
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1538 объявлении, id: 2363572526
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1539 объявлении, id: 2460919300
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 1562 объявлении, id: 1351753978
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1575 объявлении, id: 2439627485
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1590 объявлении, id: 2473907168
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1610 объявлении, id: 2324598140
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1646 объявлении, id: 2451419026
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1674 объявлении, id: 2435118956
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1692 объявлении, id: 2107114000
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1703 объявлении, id: 2188870835
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1757 объявлении, id: 2454138412
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1762 объявлении, id: 1839367538
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1763 объявлении, id: 2458433097
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1767 объявлении, id: 1996149444
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1794 объявлении, id: 2081019816
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1813 объявлении, id: 2421304749
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1826 объявлении, id: 2371020849
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1861 объявлении, id: 2447479063
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1868 объявлении, id: 2250741929
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1882 объявлении, id: 2158456148
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 1910 объявлении, id: 2198518764
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1966 объявлении, id: 2159650939
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 1976 объявлении, id: 2439689008
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2004 объявлении, id: 2320164540
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2012 объявлении, id: 1506157814
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2027 объявлении, id: 1584705363
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2057 объявлении, id: 2371835286
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2063 объявлении, id: 2335058950
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2124 объявлении, id: 2460006465
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2128 объявлении, id: 2159200729
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2143 объявлении, id: 2382394831
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2156 объявлении, id: 2176637898
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2166 объявлении, id: 2335348810
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2177 объявлении, id: 2390824714
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2217 объявлении, id: 2031379895
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2244 объявлении, id: 2357834965
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2247 объявлении, id: 1379297968
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2254 объявлении, id: 2188953444
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2260 объявлении, id: 2342092829
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2286 объявлении, id: 2491998270
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2294 объявлении, id: 2492670859
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2300 объявлении, id: 2491956567
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2306 объявлении, id: 2508165514
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2308 объявлении, id: 2492604449
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2317 объявлении, id: 2492284328
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2324 объявлении, id: 2492436212
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2325 объявлении, id: 2492406741
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2326 объявлении, id: 2492230792
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2333 объявлении, id: 2492247044
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2342 объявлении, id: 2492198861
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2343 объявлении, id: 2491975832
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2353 объявлении, id: 2492019091
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2403 объявлении, id: 2492430995
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2409 объявлении, id: 2492182408
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2413 объявлении, id: 2492533450
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2415 объявлении, id: 2492336183
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2416 объявлении, id: 2492143862
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2552 объявлении, id: 1622984779
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2592 объявлении, id: 2455175251
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2598 объявлении, id: 2335981301
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2613 объявлении, id: 1641331610
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2697 объявлении, id: 2421634103
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2789 объявлении, id: 1888125832
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 2790 объявлении, id: 2487075524
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2829 объявлении, id: 2369627725
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2839 объявлении, id: 1873908322
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2849 объявлении, id: 1902231584
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2894 объявлении, id: 2463138643
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2941 объявлении, id: 2053330311
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2963 объявлении, id: 2476309667
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2969 объявлении, id: 1811768516
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2978 объявлении, id: 2423986102
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 2984 объявлении, id: 2438255812
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3018 объявлении, id: 2317477834
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3020 объявлении, id: 2094949673
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Error 'sharing'
+Loc: main: Ошибка на 3088 объявлении, id: 1953096673
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3121 объявлении, id: 2403802782
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3126 объявлении, id: 2060577038
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3153 объявлении, id: 2491172268
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3181 объявлении, id: 2333004188
+Loc: parseMessage: Error phone_number
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3322 объявлении, id: 2395151145
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3380 объявлении, id: 1829335713
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3381 объявлении, id: 859559531
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'additionalSeller'
+Loc: main: Ошибка на 3414 объявлении, id: 1987191508
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3419 объявлении, id: 1945688049
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3526 объявлении, id: 2351000958
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Планировка не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Арендные каникулы не учтен!
+Loc: parseMessage: Error 'NoneType' object is not subscriptable
+Loc: main: Ошибка на 3585 объявлении, id: 2473958726
+Loc: parseMessage: Тип аренды не учтен!

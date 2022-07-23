@@ -10,14 +10,15 @@ class Server():
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.server.bind((host, port))
         self.server.listen(4)
+        print('Start server!')
     
 
     async def handle_get_endpoints(self, endpoint, params, inspector, parser_user, parser_region):
         try:
-            if endpoint == '/api/parse/user':
+            if endpoint == '/api/avito/user':
                 if not inspector.check_user(params["user"]):
                     parser_uuid = str(uuid.uuid4())
-                    Thread(target=parser_user,args = (params["user"],params["owner_uuid"], inspector,parser_uuid)).start()
+                    Thread(target=parser_user,args = (params["user"],inspector,parser_uuid)).start()
                     await asyncio.sleep(0.25)
                     if inspector.check_uuid(parser_uuid) and not inspector.check_error(parser_uuid):
                         return {'res': {"status": "ok", 'parser_uuid': parser_uuid}, 'code': 200}
@@ -27,7 +28,7 @@ class Server():
                     return {'res': {"status": "Bad Request"}, 'code': 400}
 
 
-            elif endpoint == '/api/parse/check':
+            elif endpoint == '/api/avito/check':
                 parser_uuid = params["uuid"]
                 if inspector.check_uuid(parser_uuid):
                     res = {"status": "In progress"}
@@ -40,7 +41,7 @@ class Server():
                 return {'res': res, 'code': code}
 
 
-            elif endpoint == '/api/parse/region':
+            elif endpoint == '/api/avito/region':
                 parser_uuid = str(uuid.uuid4())
                 print(parser_uuid)
                 if 'categoryId' in params.keys():
@@ -54,8 +55,7 @@ class Server():
                 Thread(target = parser_region,
                         args = ( 
                             inspector, 
-                            params["search"], 
-                            params["owner_uuid"],
+                            params["search"],
                             categoryId,
                             locationId,
                             parser_uuid
