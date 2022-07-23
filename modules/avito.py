@@ -17,21 +17,6 @@ class Avito():
     def raiseSession(self):
         try:
             s = Session()
-            headers = {
-                    'authority': 'm.avito.ru',
-                    'pragma': 'no-cache',
-                    'cache-control': 'no-cache',
-                    'upgrade-insecure-requests': '1',
-                    'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Mobile Safari/537.36',
-                    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-                    'sec-fetch-site': 'none',
-                    'sec-fetch-mode': 'navigate',
-                    'sec-fetch-user': '?1',
-                    'sec-fetch-dest': 'document',
-                    'accept-language': 'ru-RU,ru;q=0.9',
-                    'cookie': self.cookie,
-                    }
-            s.headers(headers)
             self.session = s
             return True
         except Exception as e:
@@ -77,7 +62,6 @@ class Avito():
 
                 if res['status'] != 'ok':
                         print(res)
-                        raise('error in getIds')
 
                 if res['status'] == 'ok':
                     items_page = int(len(res['result']['items']))

@@ -44,7 +44,7 @@ OWNER_UUID необходим для базы данных
 ##### Парсинг объявлений региона
 >>>>>>> 1074b5d (edit: incapsulated avito)
 
-`/api/avito/region?owner_uuid=OWNER_UUID&search=SEARCH&locationId=LOC_ID&catedotyId=CAT_ID`
+`/api/avito/region?search=SEARCH&locationId=LOC_ID&catedotyId=CAT_ID`
 
 OWNER_UUID необходим для базы данных
 SEARCH – поисковой запрос

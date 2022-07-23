@@ -1,64 +1,71 @@
+from email import header
 import json
 import time
 import requests
 from requests.utils import unquote
 import urllib.parse
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
 
 class Session():
     
 
     def __init__(self, timeout = 2):
+        self.headers_v = {}
         self.timeout = timeout
-        self.options = Options()
-        self.options.set_preference('devtools.jsonview.enabled', False)
-        self.options.headless = True
-        self.options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36")
-        self.driver = webdriver.Firefox(options=self.options)
-        self.driver.get('https://m.avito.ru')
-        time.sleep(3)
+        self.session = requests.Session
+        self.headers_v = {
+                    'authority': 'm.avito.ru',
+                    'pragma': 'no-cache',
+                    'cache-control': 'no-cache',
+                    'upgrade-insecure-requests': '1',
+                    'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Mobile Safari/537.36',
+                    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                    'sec-fetch-site': 'none',
+                    'sec-fetch-mode': 'navigate',
+                    'sec-fetch-user': '?1',
+                    'sec-fetch-dest': 'document',
+                    'accept-language': 'ru-RU,ru;q=0.9'
+                    }
+        self.headers(self.headers_v)
+        resp = requests.get(url = 'https://m.avito.ru', allow_redirects=True)
+        if resp.status_code == 403:
+            time.sleep(1)
+            requests.get(url = 'https://m.avito.ru/#block', allow_redirects=True)
+        time.sleep(1)
 
 
     def restart(self):
-        self.driver.close()
-        self.driver = webdriver.Firefox(executable_path='/Users/pavel/Desktop/Программирование/parser_avito/geckodriver', options=self.options)
-        self.driver.get('https://m.avito.ru')
-        time.sleep(3)
+        self.session = requests.Session
+        self.headers(self.headers_v)
+        resp = requests.get(url = 'https://m.avito.ru', allow_redirects=True)
+        if resp.status_code == 403:
+            time.sleep(1)
+            requests.get(url = 'https://m.avito.ru/#block', allow_redirects=True)
+        time.sleep(2)
 
-
-            
 
     def get(self, url, params):
-        if params:
-            url = url + '?' + urllib.parse.urlencode(params)
-        self.driver.get(url)
-        time.sleep(2)
-        content = self.driver.page_source
-        source = BeautifulSoup(content, 'lxml').find("pre").text
-        req = json.loads(source)
-        if 'status' in req.keys():
-            if req['status'] == 'forbidden':
-                print(req)
-                self.driver.get('https://m.avito.ru')
-                time.sleep(3)
-                self.driver.get(url)
-                content = self.driver.page_source
-                source = BeautifulSoup(content, 'lxml').find("pre").text
-                req = json.loads(source)
-                if 'status' in req.keys():
-                    if req['status'] == 'forbidden':
-                        print(req)
-                        self.restart()
-                        return self.get(url, None)
-        return req
+        resp = requests.get(url=url, params=params, allow_redirects=True)
+        time.sleep(4)
+        if resp.status_code == 403:
+            print('FORBIDDEN!')
+            resp = requests.get(url = 'https://m.avito.ru', allow_redirects=True)
+            if resp.status_code == 403:
+                time.sleep(1)
+                requests.get(url = 'https://m.avito.ru/#block', allow_redirects=True)
+            time.sleep(2)
+            resp = requests.get(url=url, params=params, allow_redirects=True)
+            if resp.status_code == 403:
+                print('FORBIDDEN! RESTART SESSION!')
+                self.restart()
+                return self.get(url, params)
+        return resp.json()
     
    
         
 
     def headers(self, headers):
-        pass
+        self.headers_v = headers
+        self.session.headers = headers
         
     def unquote(self, str):
         return unquote(str)
