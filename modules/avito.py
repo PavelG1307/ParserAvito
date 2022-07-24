@@ -249,14 +249,6 @@ class Avito():
 
             user_hash = info['seller']['userHash']
             self.insertToResp(user_hash, 'Hash продавца')
-            try: 
-                url_get_phone = 'https://m.avito.ru/api/1/items/' + str(info['firebaseParams']['itemID']) + '/phone'
-                phone = self.session.get(url_get_phone, params=self.params)
-                phone_number = self.session.unquote(phone['result']['action']['uri'].split('number=')[1])
-                self.insertToResp(phone_number, 'Номер телефона')
-            except Exception as e:
-                print(e)
-                self.writeInLog(f'Error phone_number', 'parseMessage')
             return True
         except Exception as e:
             self.writeInLog(f'Error {e}', 'parseMessage')
