@@ -160,8 +160,6 @@ class Avito():
             return info_js
         else:
             print(info_js)
-            # input('error get info')
-            # raise('error')
 
 
     def insertToResp(self, data, title):
