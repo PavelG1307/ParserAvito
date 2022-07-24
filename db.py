@@ -157,11 +157,6 @@ class DBController:
         else:
             owner_uuid = self.addUser(hash_seller, name_seller)
 
-        try:
-            phone_number = item['Номер телефона']
-        except Exception:
-            phone_number = ''
-
         query = f'''INSERT INTO public.{table} (
             id,
             uuid, 
@@ -177,7 +172,6 @@ class DBController:
             avito_id,
             hash_seller, 
             url,
-            phone_number,
             owner_uuid,
             description
             ) VALUES (
@@ -195,7 +189,6 @@ class DBController:
                 {avito_id},
                 '{hash_seller}',
                 '{url}',
-                '{phone_number}',
                 '{owner_uuid}'::uuid,
                 '{description}'
             )
@@ -210,7 +203,6 @@ class DBController:
                 capacity = {capacity}, 
                 is_partible = {is_partible},
                 url = '{url}',
-                phone_number = '{phone_number}',
                 description = '{description}'
             ;'''
         
