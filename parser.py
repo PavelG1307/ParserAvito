@@ -65,7 +65,7 @@ class Parser():
             if inspector.add_uuid(parser_uuid):
                 try:
                     parser_avito = Avito(cookie = self.cookie, log_file = './temp/log.txt', timeout = self.timeout, columns = self.columns)
-                    res = parser_avito.parse(only_info=True, search=search, columns = self.columns, categoryId=categoryId, locationId=locationId, callback_save = self.save_info)
+                    res = parser_avito.parse(search=search, columns = self.columns, categoryId=categoryId, locationId=locationId, callback_save = self.save_info)
                     inspector.setResult(res, parser_uuid)
                     print('Синхронизация успешно завершена')
                 except Exception as e:
