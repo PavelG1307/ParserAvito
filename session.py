@@ -57,7 +57,7 @@ class Session():
         except Exception as e:
             print(e)
             self.restart()
-            return self.get(url, None)
+            return None
     
    
         
