@@ -59,6 +59,7 @@ class Avito():
                 page = self.params['page']
                 print(f'Страница: {page}')
                 res = self.session.get(url_api_9, params=self.params)
+<<<<<<< HEAD:modules/avito.py
 
                 if res['status'] != 'ok':
                         print(res)
@@ -82,6 +83,33 @@ class Avito():
                         if not ad_id in ids:
                             ids.append(ad_id)
                             f.write(str(ad_id) + '\n')
+=======
+                if 'status' in res.keys():
+                    if res['status'] != 'ok':
+                            print(res)
+
+                    if res['status'] == 'ok':
+                        items_page = int(len(res['result']['items']))
+
+                        if items_page > self.limit_page:
+                            items_page = items_page - 1
+
+                        for item in res['result']['items']:
+                            if item['type'] == 'item':
+                                items.append(item)
+                            elif item['type'] == 'groupTitle':
+                                cicle_stop = False
+                        if items_page < self.limit_page:
+                            cicle_stop = False
+                    for item in items:
+                        if item['type'] == 'item' or item['type'] == 'xlItem':
+                            ad_id = str(item['value']['id'])
+                            if not ad_id in ids:
+                                ids.append(ad_id)
+                                f.write(str(ad_id) + '\n')
+                else:
+                    print(res)
+>>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
             print(f'Всего объявлений: {len(ids)}')
         self.fileIds = filename
 
@@ -109,29 +137,36 @@ class Avito():
             print(f'Авито объявления: {page}')
             res = self.session.get(url, params=params)
 
+<<<<<<< HEAD:modules/avito.py
 
             if res['status'] != 'ok':
                     print(res)
                     # raise('api error')
+=======
+            if 'status' in res: 
+                if res['status'] != 'ok':
+                        print(res)
+                        # raise('api error')
+>>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
 
-            if res['status'] == 'ok':
-                items_page = int(len(res['result']['items']))
+                if res['status'] == 'ok':
+                    items_page = int(len(res['result']['items']))
 
-                if items_page > self.limit_page:
-                    items_page = items_page - 1
+                    if items_page > self.limit_page:
+                        items_page = items_page - 1
 
-                for item in res['result']['items']:
+                    for item in res['result']['items']:
+                        if item['type'] == 'item':
+                            if item['value']['category']['id'] == category_id:
+                                items.append(item)
+                    if items_page < self.limit_page:
+                        cicle_stop = False
+                for item in items:
                     if item['type'] == 'item':
-                        if item['value']['category']['id'] == category_id:
-                            items.append(item)
-                if items_page < self.limit_page:
-                    cicle_stop = False
-            for item in items:
-                if item['type'] == 'item':
-                    ad_id = str(item['value']['id'])
-                    if not ad_id in ids:
-                        ids.append(ad_id)
-                        f.write(str(ad_id) + '\n')
+                        ad_id = str(item['value']['id'])
+                        if not ad_id in ids:
+                            ids.append(ad_id)
+                            f.write(str(ad_id) + '\n')
 
         print(f'Всего объявлений: {len(ids)}')
 
@@ -311,6 +346,11 @@ class Avito():
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
+<<<<<<< HEAD:modules/avito.py
                 # raise 'Error in ParseInfo'
+=======
+
+ 
+>>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
         return self.ads
 
