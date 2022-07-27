@@ -2860,3 +2860,221 @@ JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd
 * Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1658873792376	geckodriver	INFO	Listening on 127.0.0.1:37796
+1658873792885	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "40987" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2sZNpu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658873803787	Marionette	INFO	Marionette enabled
+1658873803796	Marionette	INFO	Listening on port 33769
+WebDriver BiDi listening on ws://localhost:40987
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+Read port: 33769
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2sZNpu/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40987/devtools/browser/414c1dd9-cd60-4554-bcf5-4cffdbbf468c
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1658874017745	geckodriver	INFO	Listening on 127.0.0.1:54162
+1658874018250	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "48231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileilEbk2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658874018749	Marionette	INFO	Marionette enabled
+1658874018755	Marionette	INFO	Listening on port 45720
+WebDriver BiDi listening on ws://localhost:48231
+Read port: 45720
+1658874019098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileilEbk2/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48231/devtools/browser/c7c3c341-1faa-4d42-a5e2-60b78ec5d5ba
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1658884955409	Marionette	INFO	Stopped listening on port 45720
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1996\"  data: no]"
+1658884956840	geckodriver	INFO	Listening on 127.0.0.1:46877
+1658884956869	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "47817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePmyHSc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658884957660	Marionette	INFO	Marionette enabled
+1658884957667	Marionette	INFO	Listening on port 45382
+Read port: 45382
+WebDriver BiDi listening on ws://localhost:47817
+1658884957846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePmyHSc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:47817/devtools/browser/7efed810-4b34-4158-a735-502d29215f69
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 160: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://www.avito.ru/dstatic/build/client/f.f620419292c6b4bd4b98.js, line 6: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://mc.yandex.ru/metrika/watch.js, line 130: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1658902807754	geckodriver	INFO	Listening on 127.0.0.1:43738
+1658902808267	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "58354" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNFQ7nP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658902808853	Marionette	INFO	Marionette enabled
+1658902808863	Marionette	INFO	Listening on port 33535
+Read port: 33535
+WebDriver BiDi listening on ws://localhost:58354
+1658902809030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNFQ7nP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:58354/devtools/browser/e3324819-fa5f-4b18-b264-c366a8141c0c
+1658903061831	geckodriver	INFO	Listening on 127.0.0.1:47561
+1658903062360	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "36727" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIn5z2P"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658903062986	Marionette	INFO	Marionette enabled
+1658903062996	Marionette	INFO	Listening on port 33098
+WebDriver BiDi listening on ws://localhost:36727
+Read port: 33098
+1658903063968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIn5z2P/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:36727/devtools/browser/24c52ed9-06c5-4ef5-8011-a216def4db97
+1658903196964	geckodriver	INFO	Listening on 127.0.0.1:52110
+1658903196969	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "48975" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileiQWVrp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658903197555	Marionette	INFO	Marionette enabled
+1658903197564	Marionette	INFO	Listening on port 41777
+Read port: 41777
+WebDriver BiDi listening on ws://localhost:48975
+1658903197782	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiQWVrp/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:48975/devtools/browser/5d79df84-790c-4dd9-8a12-34f21346e386
+1658903325749	geckodriver	INFO	Listening on 127.0.0.1:35857
+1658903326255	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "39777" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenk288D"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658903326711	Marionette	INFO	Marionette enabled
+1658903326717	Marionette	INFO	Listening on port 34533
+WebDriver BiDi listening on ws://localhost:39777
+Read port: 34533
+1658903326874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenk288D/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39777/devtools/browser/640ab1bb-2291-4cc7-aece-f4e731b59904
+1658903360918	geckodriver	INFO	Listening on 127.0.0.1:41353
+1658903360925	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "-headless" "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" "--remote-debugging-port" "57550" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZAhZlt"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+[GFX1-]: No GPUs detected via PCI
+1658903361436	Marionette	INFO	Marionette enabled
+1658903361446	Marionette	INFO	Listening on port 46454
+WebDriver BiDi listening on ws://localhost:57550
+Read port: 46454
+1658903361635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZAhZlt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57550/devtools/browser/7ae92e8e-a3bf-40b5-93c6-43786c98bfab
