@@ -4,7 +4,9 @@ from threading import Thread
 import uuid
 from helpers import parse_request, get_response
 
+
 class Server():
+
 
     def __init__(self, host='127.0.0.1', port=8080):
         self.server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

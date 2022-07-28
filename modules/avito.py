@@ -4,10 +4,9 @@ from helpers import add_speciality_symbol
 
 class Avito():
 
-    def __init__(self, cookie, columns, log_file = 'log.txt', timeout = 1):
+    def __init__(self,  columns, log_file = 'log.txt', timeout = 1):
         self.key = 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir'
         self.limit_page = 50
-        self.cookie = cookie
         self.log_file = log_file
         self.timeout = timeout
         self.columns = columns

@@ -3,7 +3,6 @@ import uuid
 
 class DBController:
 
-
     def __init__(self, dbname, user, password, host):
         self.conn = psycopg2.connect(dbname=dbname, user=user, 
                         password=password, host=host)
