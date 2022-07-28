@@ -319,4 +319,3 @@ class Avito():
 
  
         return self.ads
-
