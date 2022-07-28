@@ -59,31 +59,6 @@ class Avito():
                 page = self.params['page']
                 print(f'Страница: {page}')
                 res = self.session.get(url_api_9, params=self.params)
-<<<<<<< HEAD:modules/avito.py
-
-                if res['status'] != 'ok':
-                        print(res)
-
-                if res['status'] == 'ok':
-                    items_page = int(len(res['result']['items']))
-
-                    if items_page > self.limit_page:
-                        items_page = items_page - 1
-
-                    for item in res['result']['items']:
-                        if item['type'] == 'item':
-                            items.append(item)
-                        elif item['type'] == 'groupTitle':
-                            cicle_stop = False
-                    if items_page < self.limit_page:
-                        cicle_stop = False
-                for item in items:
-                    if item['type'] == 'item' or item['type'] == 'xlItem':
-                        ad_id = str(item['value']['id'])
-                        if not ad_id in ids:
-                            ids.append(ad_id)
-                            f.write(str(ad_id) + '\n')
-=======
                 if 'status' in res.keys():
                     if res['status'] != 'ok':
                             print(res)
@@ -109,7 +84,6 @@ class Avito():
                                 f.write(str(ad_id) + '\n')
                 else:
                     print(res)
->>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
             print(f'Всего объявлений: {len(ids)}')
         self.fileIds = filename
 
@@ -117,9 +91,9 @@ class Avito():
     def get_ids_from_user(self, id_hash, category_id = 42):
         ids = []
         items = []
-        url = 'https://m.avito.ru/api/1/user/profile/items?'
+        url = 'https://m.avito.ru/api/1/user/profile/items'
         params = {
-            'key': 'af0deccbgcgidddjgnvljitntccdduijhdinfgjgfjir',
+            'key': self.key,
             'limit': 50,
             'sellerId': id_hash,
             'display': 'grid',
@@ -133,21 +107,12 @@ class Avito():
         while cicle_stop:
             cikle += 1
             params['page'] = cikle
-            page = params['page']
-            print(f'Авито объявления: {page}')
+            print(f'Страница: {cikle}')
             res = self.session.get(url, params=params)
 
-<<<<<<< HEAD:modules/avito.py
-
-            if res['status'] != 'ok':
-                    print(res)
-                    # raise('api error')
-=======
             if 'status' in res: 
                 if res['status'] != 'ok':
                         print(res)
-                        # raise('api error')
->>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
 
                 if res['status'] == 'ok':
                     items_page = int(len(res['result']['items']))
@@ -161,13 +126,16 @@ class Avito():
                                 items.append(item)
                     if items_page < self.limit_page:
                         cicle_stop = False
+                print('Объявлений:',len(items))
                 for item in items:
                     if item['type'] == 'item':
                         ad_id = str(item['value']['id'])
                         if not ad_id in ids:
                             ids.append(ad_id)
                             f.write(str(ad_id) + '\n')
-
+            else:
+                print('error: not key status')
+                print(res)
         print(f'Всего объявлений: {len(ids)}')
 
         self.fileIds = file
@@ -179,6 +147,7 @@ class Avito():
             ids = f.readlines()
             for i in range(len(ids)):
                 ids[i] = ids[i].strip()
+            print(f'{len(ids)} обхявлений из файла {filename}')
             return ids
         except Exception as e:
             print(e)
@@ -321,6 +290,7 @@ class Avito():
             if not user_id_hash:
                 self.getIDS(fileIds)
             else:
+                print(f'From user {user_id_hash}')
                 self.get_ids_from_user(user_id_hash)
         if (only_ids):
             return self.file
@@ -346,11 +316,7 @@ class Avito():
             else:
                 print(f'Ошибка на {i} объявлении, id: {ids[i]}')
                 self.writeInLog(f'Ошибка на {i} объявлении, id: {ids[i]}', 'main')
-<<<<<<< HEAD:modules/avito.py
-                # raise 'Error in ParseInfo'
-=======
 
  
->>>>>>> d0c349919b73160104cfbc8361944f3f4145d664:avito.py
         return self.ads
 

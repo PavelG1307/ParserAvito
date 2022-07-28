@@ -1078,3 +1078,6 @@ Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
 Loc: parseMessage: Удаленность от дороги не учтен!
+Loc: parseMessage: Тип аренды не учтен!
+Loc: parseMessage: Минимальный срок аренды не учтен!
+Loc: parseMessage: Тип аренды не учтен!
